@@ -84,7 +84,11 @@
 				<div class="misc-content">
 					<div class="social">
 						<ul class="list-linear">
-							<li><div class="twitter-tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="codeglomeration" data-lang="en">Tweet</a></div></li>
+                            <li>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
+                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                            </li>
+							<!--li><div class="twitter-tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="codeglomeration" data-lang="en">Tweet</a></div></li-->
 							<!-- <li><div class="twitter-follow"><a href="https://twitter.com/codeglomeration" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li> -->
                             <li>
                                 <!-- Place this tag where you want the +1 button to render -->
@@ -164,16 +168,16 @@
 	</footer>
 </div><!-- page -->
 <script>
-	(function(d, s) {
-		var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
-		if (d.getElementById(id)) {return;}
-		js = d.createElement(s); js.src = url; js.id = id;
-		fjs.parentNode.insertBefore(js, fjs);
-		};
-	load('//platform.twitter.com/widgets.js', 'tweetjs');
+//	(function(d, s) {
+//		var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
+//		if (d.getElementById(id)) {return;}
+//		js = d.createElement(s); js.src = url; js.id = id;
+//		fjs.parentNode.insertBefore(js, fjs);
+//		};
+	//load('//platform.twitter.com/widgets.js', 'tweetjs');
 	// load('https://apis.google.com/js/plusone.js', 'gplus1js'); // Checkout http://j.mp/ApDgMr for usage html for this is <div class="g-plusone" data-size="medium"></div>
 	// load('//connect.facebook.net/en_US/all.js#xfbml=1', 'fbjssdk'); // Checkout http://j.mp/wZw2xR for using open graph protorol html for this is <div class="fb-like" data-href="/blog/2012/06/post-5-more-info-5.html" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana"></div>
-	}(document, 'script'));
+//	}(document, 'script'));
 </script>
 <script>
 /*! A fix for the iOS orientationchange zoom bug.Script by @scottjehl, rebound by @wilto. MIT License.*/
