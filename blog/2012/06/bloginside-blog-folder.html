@@ -67,14 +67,12 @@
 					<div class="social">
 						<ul class="list-linear">
                             <li>
-                                <a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-lang="en">Tweet</a>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-size="medium" data-lang="en">Tweet</a>
                                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                             </li>
-							<!--li><div class="twitter-tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="codeglomeration" data-lang="en">Tweet</a></div></li-->
-							<!-- <li><div class="twitter-follow"><a href="https://twitter.com/codeglomeration" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li> -->
                             <li>
                                 <!-- Place this tag where you want the +1 button to render -->
-                                <g:plusone annotation="none"></g:plusone>
+                                <g:plusone size="medium" annotation="none"></g:plusone>
                                     
                                     <!-- Place this render call where appropriate -->
                                     <script type="text/javascript">
@@ -85,6 +83,12 @@
                                          })();
                                         </script>
                             </li>
+                            <li>
+                                <div class="fb-like" data-send="false" data-layout="button_count" data-width="90" data-show-faces="true"></div>
+                            </li>
+							<!--li><div class="twitter-tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="codeglomeration" data-lang="en">Tweet</a></div></li-->
+							<!-- <li><div class="twitter-follow"><a href="https://twitter.com/codeglomeration" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li> -->
+                            
 						</ul>
 					</div>
                     <div class="pagination-outer">
@@ -163,6 +167,16 @@
 /*! A fix for the iOS orientationchange zoom bug.Script by @scottjehl, rebound by @wilto. MIT License.*/
 (function(j){var i=j.document;if(!i.querySelectorAll){return}var l=i.querySelectorAll("meta[name=viewport]")[0],a=l&&l.getAttribute("content"),h=a+", maximum-scale=1.0",d=a+", maximum-scale=10.0",g=true,c=j.orientation,k=0;if(!l){return}function f(){l.setAttribute("content",d);g=true}function b(){l.setAttribute("content",h);g=false}function e(m){c=Math.abs(j.orientation);k=Math.abs(m.gamma);if(k>8&&c===0){if(g){b()}}else{if(!g){f()}}}j.addEventListener("orientationchange",f,false);j.addEventListener("deviceorientation",e,false)})(this);
 </script>
+    <!-- facebook sdk snippet -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) return;
+             js = d.createElement(s); js.id = id;
+             js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+             fjs.parentNode.insertBefore(js, fjs);
+             }(document, 'script', 'facebook-jssdk'));
+    </script>    
   
   <script type="text/javascript">
   var _gaq = _gaq || [];
