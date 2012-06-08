@@ -661,8 +661,8 @@ pre {
 }
 .unit-article a:visited {
   /*border-bottom: 1px dashed #ad4346;*/
-  background-color:#f45653;
-  color:#ad4346;
+  /*background-color:#f45653;*/
+  color:#f45653;
 }
 .unit-article a:hover {
   /*border-bottom: 1px dashed #ad4346;*/
