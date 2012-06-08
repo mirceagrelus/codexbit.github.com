@@ -1,8 +1,10 @@
 
+http://username.github.com/about.html
 http://username.github.com/archive.html
 http://username.github.com/atom.xml
 http://username.github.com/blog/index.html
 http://username.github.com/pages.html
+http://username.github.com/products.html
 http://username.github.com/sitemap.txt
 http://username.github.com/blog/page2/index.html
 http://username.github.com/blog/page3/index.html
