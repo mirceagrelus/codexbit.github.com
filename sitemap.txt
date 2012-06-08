@@ -2,10 +2,8 @@
 http://username.github.com/archive.html
 http://username.github.com/atom.xml
 http://username.github.com/blog/index.html
-http://username.github.com/index2 copy.html
 http://username.github.com/pages.html
 http://username.github.com/sitemap.txt
-http://username.github.com/tags.html
 http://username.github.com/blog/page2/index.html
 http://username.github.com/blog/page3/index.html
 http://username.github.com/blog/page4/index.html
