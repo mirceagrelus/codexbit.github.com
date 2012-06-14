@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>codeglomeration</title>
+ <title>codexBit</title>
  <link href="http://codeglomeration.com/atom.xml" rel="self"/>
  <link href="http://codeglomeration.com"/>
- <updated>2012-06-13T15:06:33+03:00</updated>
+ <updated>2012-06-14T16:03:44+03:00</updated>
  <id>http://codeglomeration.com</id>
  <author>
    <name>Mircea Grelus</name>
