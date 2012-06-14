@@ -2,29 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>codexBit</title>
- <link href="http://codeglomeration.com/atom.xml" rel="self"/>
- <link href="http://codeglomeration.com"/>
- <updated>2012-06-14T16:12:56+03:00</updated>
- <id>http://codeglomeration.com</id>
+ <link href="http://codexbit.com/atom.xml" rel="self"/>
+ <link href="http://codexbit.com"/>
+ <updated>2012-06-14T16:46:58+03:00</updated>
+ <id>http://codexbit.com</id>
  <author>
    <name>Mircea Grelus</name>
-   <email>codeglomeration@gmail.com</email>
+   <email>mircea@codexbit.com</email>
  </author>
 
  
  <entry>
    <title>blog/inside blog folder</title>
-   <link href="http://codeglomeration.com/blog/2012/06/bloginside-blog-folder.html"/>
+   <link href="http://codexbit.com/blog/2012/06/bloginside-blog-folder.html"/>
    <updated>2012-06-07T21:44:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/bloginside-blog-folder</id>
+   <id>http://codexbit.com/blog/2012/06/bloginside-blog-folder</id>
    <content type="html">&lt;p&gt;abc&lt;/p&gt;</content>
  </entry>
  
  <entry>
    <title>Post 16. More info 16</title>
-   <link href="http://codeglomeration.com/blog/2012/06/post-16-more-info-16.html"/>
+   <link href="http://codexbit.com/blog/2012/06/post-16-more-info-16.html"/>
    <updated>2012-06-07T00:16:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/post-16-more-info-16</id>
+   <id>http://codexbit.com/blog/2012/06/post-16-more-info-16</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie ipsum a neque scelerisque vitae molestie justo elementum. In sit amet lorem ut lacus congue tempor. &lt;a href='http://google.com/Nulla facilisi'&gt;Nulla facilisi&lt;/a&gt;. Sed nec magna lorem, nec ultrices lectus. Donec convallis mattis mi, porttitor mattis ligula scelerisque at. Cras vel ultricies elit. Nunc molestie leo non risus vulputate vel tincidunt enim euismod. Phasellus et tellus quis mi tempor lobortis.&lt;/p&gt;
 
 &lt;p&gt;Maecenas nec lacus a ipsum consequat venenatis. Integer laoreet vehicula pretium. Sed auctor, augue ut hendrerit pellentesque, metus magna porttitor sem, id pulvinar tellus tellus at elit. Donec et aliquet dui. Quisque at dolor libero, vitae lobortis lorem. Morbi facilisis sem id nulla euismod tincidunt. Aliquam at nulla est. Aenean at laoreet augue. Integer erat sapien, viverra ac scelerisque a, tempor in mauris. Etiam ligula ipsum, ullamcorper vitae tristique vitae, vulputate vitae nisi.&lt;/p&gt;
@@ -38,9 +38,9 @@
  
  <entry>
    <title>Post 15. More info 15</title>
-   <link href="http://codeglomeration.com/blog/2012/06/post-15-more-info-15.html"/>
+   <link href="http://codexbit.com/blog/2012/06/post-15-more-info-15.html"/>
    <updated>2012-06-07T00:15:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/post-15-more-info-15</id>
+   <id>http://codexbit.com/blog/2012/06/post-15-more-info-15</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie ipsum a neque scelerisque vitae molestie justo elementum. In sit amet lorem ut lacus congue tempor. Nulla facilisi. Sed nec magna lorem, nec ultrices lectus. Donec convallis mattis mi, porttitor mattis ligula scelerisque at. Cras vel ultricies elit. Nunc molestie leo non risus vulputate vel tincidunt enim euismod. Phasellus et tellus quis mi tempor lobortis.&lt;/p&gt;
 
 &lt;p&gt;Maecenas nec lacus a ipsum consequat venenatis. Integer laoreet vehicula pretium. Sed auctor, augue ut hendrerit pellentesque, metus magna porttitor sem, id pulvinar tellus tellus at elit. Donec et aliquet dui. Quisque at dolor libero, vitae lobortis lorem. Morbi facilisis sem id nulla euismod tincidunt. Aliquam at nulla est. Aenean at laoreet augue. Integer erat sapien, viverra ac scelerisque a, tempor in mauris. Etiam ligula ipsum, ullamcorper vitae tristique vitae, vulputate vitae nisi. Maecenas et urna elit, ac malesuada dui. Donec tristique, nunc non ullamcorper varius, sapien urna elementum tortor, quis semper urna nunc ut tellus. Nulla sagittis orci eget tellus suscipit sed porta dolor sodales. Nam scelerisque ultricies eros eget imperdiet. Aenean nisi velit, blandit nec varius in, tempus ut tellus. Fusce et libero lectus. Curabitur sollicitudin consequat enim, a vulputate sem bibendum ac. Nullam ultrices consectetur nunc, id bibendum ligula interdum eget.&lt;/p&gt;
@@ -54,9 +54,9 @@
  
  <entry>
    <title>Post 14. More info 14</title>
-   <link href="http://codeglomeration.com/blog/2012/06/post-14-more-info-14.html"/>
+   <link href="http://codexbit.com/blog/2012/06/post-14-more-info-14.html"/>
    <updated>2012-06-07T00:14:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/post-14-more-info-14</id>
+   <id>http://codexbit.com/blog/2012/06/post-14-more-info-14</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie ipsum a neque scelerisque vitae molestie justo elementum. In sit amet lorem ut lacus congue tempor. Nulla facilisi. Sed nec magna lorem, nec ultrices lectus. Donec convallis mattis mi, porttitor mattis ligula scelerisque at. Cras vel ultricies elit. Nunc molestie leo non risus vulputate vel tincidunt enim euismod. Phasellus et tellus quis mi tempor lobortis.&lt;/p&gt;
 
 &lt;p&gt;Maecenas nec lacus a ipsum consequat venenatis. Integer laoreet vehicula pretium. Sed auctor, augue ut hendrerit pellentesque, metus magna porttitor sem, id pulvinar tellus tellus at elit. Donec et aliquet dui. Quisque at dolor libero, vitae lobortis lorem. Morbi facilisis sem id nulla euismod tincidunt. Aliquam at nulla est. Aenean at laoreet augue. Integer erat sapien, viverra ac scelerisque a, tempor in mauris. Etiam ligula ipsum, ullamcorper vitae tristique vitae, vulputate vitae nisi.&lt;/p&gt;
@@ -66,9 +66,9 @@
  
  <entry>
    <title>Post 13. More info 13</title>
-   <link href="http://codeglomeration.com/blog/2012/06/post-13-more-info-13.html"/>
+   <link href="http://codexbit.com/blog/2012/06/post-13-more-info-13.html"/>
    <updated>2012-06-07T00:13:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/post-13-more-info-13</id>
+   <id>http://codexbit.com/blog/2012/06/post-13-more-info-13</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie ipsum a neque scelerisque vitae molestie justo elementum. In sit amet lorem ut lacus congue tempor. Nulla facilisi. Sed nec magna lorem, nec ultrices lectus. Donec convallis mattis mi, porttitor mattis ligula scelerisque at. Cras vel ultricies elit. Nunc molestie leo non risus vulputate vel tincidunt enim euismod. Phasellus et tellus quis mi tempor lobortis.&lt;/p&gt;
 
 &lt;p&gt;Maecenas nec lacus a ipsum consequat venenatis. Integer laoreet vehicula pretium. Sed auctor, augue ut hendrerit pellentesque, metus magna porttitor sem, id pulvinar tellus tellus at elit. Donec et aliquet dui. Quisque at dolor libero, vitae lobortis lorem. Morbi facilisis sem id nulla euismod tincidunt. Aliquam at nulla est. Aenean at laoreet augue. Integer erat sapien, viverra ac scelerisque a, tempor in mauris. Etiam ligula ipsum, ullamcorper vitae tristique vitae, vulputate vitae nisi.&lt;/p&gt;
@@ -92,9 +92,9 @@
  
  <entry>
    <title>Post 12. More info 12</title>
-   <link href="http://codeglomeration.com/blog/2012/06/post-12-more-info-12.html"/>
+   <link href="http://codexbit.com/blog/2012/06/post-12-more-info-12.html"/>
    <updated>2012-06-07T00:12:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/post-12-more-info-12</id>
+   <id>http://codexbit.com/blog/2012/06/post-12-more-info-12</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie ipsum a neque scelerisque vitae molestie justo elementum. In sit amet lorem ut lacus congue tempor. Nulla facilisi. Sed nec magna lorem, nec ultrices lectus. Donec convallis mattis mi, porttitor mattis ligula scelerisque at. Cras vel ultricies elit. Nunc molestie leo non risus vulputate vel tincidunt enim euismod. Phasellus et tellus quis mi tempor lobortis.&lt;/p&gt;
 
 &lt;p&gt;Maecenas nec lacus a ipsum consequat venenatis. Integer laoreet vehicula pretium. Sed auctor, augue ut hendrerit pellentesque, metus magna porttitor sem, id pulvinar tellus tellus at elit. Donec et aliquet dui. Quisque at dolor libero, vitae lobortis lorem. Morbi facilisis sem id nulla euismod tincidunt. Aliquam at nulla est. Aenean at laoreet augue. Integer erat sapien, viverra ac scelerisque a, tempor in mauris. Etiam ligula ipsum, ullamcorper vitae tristique vitae, vulputate vitae nisi.&lt;/p&gt;
@@ -118,9 +118,9 @@
  
  <entry>
    <title>Post 11. More info 11</title>
-   <link href="http://codeglomeration.com/blog/2012/06/post-11-more-info-11.html"/>
+   <link href="http://codexbit.com/blog/2012/06/post-11-more-info-11.html"/>
    <updated>2012-06-07T00:11:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/post-11-more-info-11</id>
+   <id>http://codexbit.com/blog/2012/06/post-11-more-info-11</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie ipsum a neque scelerisque vitae molestie justo elementum. In sit amet lorem ut lacus congue tempor. Nulla facilisi. Sed nec magna lorem, nec ultrices lectus. Donec convallis mattis mi, porttitor mattis ligula scelerisque at. Cras vel ultricies elit. Nunc molestie leo non risus vulputate vel tincidunt enim euismod. Phasellus et tellus quis mi tempor lobortis.&lt;/p&gt;
 
 &lt;p&gt;Maecenas nec lacus a ipsum consequat venenatis. Integer laoreet vehicula pretium. Sed auctor, augue ut hendrerit pellentesque, metus magna porttitor sem, id pulvinar tellus tellus at elit. Donec et aliquet dui. Quisque at dolor libero, vitae lobortis lorem. Morbi facilisis sem id nulla euismod tincidunt. Aliquam at nulla est. Aenean at laoreet augue. Integer erat sapien, viverra ac scelerisque a, tempor in mauris. Etiam ligula ipsum, ullamcorper vitae tristique vitae, vulputate vitae nisi.&lt;/p&gt;
@@ -144,9 +144,9 @@
  
  <entry>
    <title>Post 10. More info 10</title>
-   <link href="http://codeglomeration.com/blog/2012/06/post-10-more-info-10.html"/>
+   <link href="http://codexbit.com/blog/2012/06/post-10-more-info-10.html"/>
    <updated>2012-06-07T00:10:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/post-10-more-info-10</id>
+   <id>http://codexbit.com/blog/2012/06/post-10-more-info-10</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie ipsum a neque scelerisque vitae molestie justo elementum. In sit amet lorem ut lacus congue tempor. Nulla facilisi. Sed nec magna lorem, nec ultrices lectus. Donec convallis mattis mi, porttitor mattis ligula scelerisque at. Cras vel ultricies elit. Nunc molestie leo non risus vulputate vel tincidunt enim euismod. Phasellus et tellus quis mi tempor lobortis.&lt;/p&gt;
 
 &lt;p&gt;Maecenas nec lacus a ipsum consequat venenatis. Integer laoreet vehicula pretium. Sed auctor, augue ut hendrerit pellentesque, metus magna porttitor sem, id pulvinar tellus tellus at elit. Donec et aliquet dui. Quisque at dolor libero, vitae lobortis lorem. Morbi facilisis sem id nulla euismod tincidunt. Aliquam at nulla est. Aenean at laoreet augue. Integer erat sapien, viverra ac scelerisque a, tempor in mauris. Etiam ligula ipsum, ullamcorper vitae tristique vitae, vulputate vitae nisi.&lt;/p&gt;
@@ -170,9 +170,9 @@
  
  <entry>
    <title>Post 9. More info 9</title>
-   <link href="http://codeglomeration.com/blog/2012/06/post-9-more-info-9.html"/>
+   <link href="http://codexbit.com/blog/2012/06/post-9-more-info-9.html"/>
    <updated>2012-06-07T00:09:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/post-9-more-info-9</id>
+   <id>http://codexbit.com/blog/2012/06/post-9-more-info-9</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie ipsum a neque scelerisque vitae molestie justo elementum. In sit amet lorem ut lacus congue tempor. Nulla facilisi. Sed nec magna lorem, nec ultrices lectus. Donec convallis mattis mi, porttitor mattis ligula scelerisque at. Cras vel ultricies elit. Nunc molestie leo non risus vulputate vel tincidunt enim euismod. Phasellus et tellus quis mi tempor lobortis.&lt;/p&gt;
 
 &lt;p&gt;Maecenas nec lacus a ipsum consequat venenatis. Integer laoreet vehicula pretium. Sed auctor, augue ut hendrerit pellentesque, metus magna porttitor sem, id pulvinar tellus tellus at elit. Donec et aliquet dui. Quisque at dolor libero, vitae lobortis lorem. Morbi facilisis sem id nulla euismod tincidunt. Aliquam at nulla est. Aenean at laoreet augue. Integer erat sapien, viverra ac scelerisque a, tempor in mauris. Etiam ligula ipsum, ullamcorper vitae tristique vitae, vulputate vitae nisi.&lt;/p&gt;
@@ -196,9 +196,9 @@
  
  <entry>
    <title>Post 8. More info 8</title>
-   <link href="http://codeglomeration.com/blog/2012/06/post-8-more-info-8.html"/>
+   <link href="http://codexbit.com/blog/2012/06/post-8-more-info-8.html"/>
    <updated>2012-06-07T00:08:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/post-8-more-info-8</id>
+   <id>http://codexbit.com/blog/2012/06/post-8-more-info-8</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie ipsum a neque scelerisque vitae molestie justo elementum. In sit amet lorem ut lacus congue tempor. Nulla facilisi. Sed nec magna lorem, nec ultrices lectus. Donec convallis mattis mi, porttitor mattis ligula scelerisque at. Cras vel ultricies elit. Nunc molestie leo non risus vulputate vel tincidunt enim euismod. Phasellus et tellus quis mi tempor lobortis.&lt;/p&gt;
 
 &lt;p&gt;Maecenas nec lacus a ipsum consequat venenatis. Integer laoreet vehicula pretium. Sed auctor, augue ut hendrerit pellentesque, metus magna porttitor sem, id pulvinar tellus tellus at elit. Donec et aliquet dui. Quisque at dolor libero, vitae lobortis lorem. Morbi facilisis sem id nulla euismod tincidunt. Aliquam at nulla est. Aenean at laoreet augue. Integer erat sapien, viverra ac scelerisque a, tempor in mauris. Etiam ligula ipsum, ullamcorper vitae tristique vitae, vulputate vitae nisi.&lt;/p&gt;
@@ -222,9 +222,9 @@
  
  <entry>
    <title>Post 7. More info 7</title>
-   <link href="http://codeglomeration.com/blog/2012/06/post-7-more-info-7.html"/>
+   <link href="http://codexbit.com/blog/2012/06/post-7-more-info-7.html"/>
    <updated>2012-06-07T00:07:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/post-7-more-info-7</id>
+   <id>http://codexbit.com/blog/2012/06/post-7-more-info-7</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie ipsum a neque scelerisque vitae molestie justo elementum. In sit amet lorem ut lacus congue tempor. Nulla facilisi. Sed nec magna lorem, nec ultrices lectus. Donec convallis mattis mi, porttitor mattis ligula scelerisque at. Cras vel ultricies elit. Nunc molestie leo non risus vulputate vel tincidunt enim euismod. Phasellus et tellus quis mi tempor lobortis.&lt;/p&gt;
 
 &lt;p&gt;Maecenas nec lacus a ipsum consequat venenatis. Integer laoreet vehicula pretium. Sed auctor, augue ut hendrerit pellentesque, metus magna porttitor sem, id pulvinar tellus tellus at elit. Donec et aliquet dui. Quisque at dolor libero, vitae lobortis lorem. Morbi facilisis sem id nulla euismod tincidunt. Aliquam at nulla est. Aenean at laoreet augue. Integer erat sapien, viverra ac scelerisque a, tempor in mauris. Etiam ligula ipsum, ullamcorper vitae tristique vitae, vulputate vitae nisi.&lt;/p&gt;
@@ -248,9 +248,9 @@
  
  <entry>
    <title>Post 6. More info 6</title>
-   <link href="http://codeglomeration.com/blog/2012/06/post-6-more-info-6.html"/>
+   <link href="http://codexbit.com/blog/2012/06/post-6-more-info-6.html"/>
    <updated>2012-06-07T00:06:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/post-6-more-info-6</id>
+   <id>http://codexbit.com/blog/2012/06/post-6-more-info-6</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie ipsum a neque scelerisque vitae molestie justo elementum. In sit amet lorem ut lacus congue tempor. Nulla facilisi. Sed nec magna lorem, nec ultrices lectus. Donec convallis mattis mi, porttitor mattis ligula scelerisque at. Cras vel ultricies elit. Nunc molestie leo non risus vulputate vel tincidunt enim euismod. Phasellus et tellus quis mi tempor lobortis.&lt;/p&gt;
 
 &lt;p&gt;Maecenas nec lacus a ipsum consequat venenatis. Integer laoreet vehicula pretium. Sed auctor, augue ut hendrerit pellentesque, metus magna porttitor sem, id pulvinar tellus tellus at elit. Donec et aliquet dui. Quisque at dolor libero, vitae lobortis lorem. Morbi facilisis sem id nulla euismod tincidunt. Aliquam at nulla est. Aenean at laoreet augue. Integer erat sapien, viverra ac scelerisque a, tempor in mauris. Etiam ligula ipsum, ullamcorper vitae tristique vitae, vulputate vitae nisi.&lt;/p&gt;
@@ -274,9 +274,9 @@
  
  <entry>
    <title>Post 5. More info 5</title>
-   <link href="http://codeglomeration.com/blog/2012/06/post-5-more-info-5.html"/>
+   <link href="http://codexbit.com/blog/2012/06/post-5-more-info-5.html"/>
    <updated>2012-06-07T00:05:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/post-5-more-info-5</id>
+   <id>http://codexbit.com/blog/2012/06/post-5-more-info-5</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie ipsum a neque scelerisque vitae molestie justo elementum. In sit amet lorem ut lacus congue tempor. Nulla facilisi. Sed nec magna lorem, nec ultrices lectus. Donec convallis mattis mi, porttitor mattis ligula scelerisque at. Cras vel ultricies elit. Nunc molestie leo non risus vulputate vel tincidunt enim euismod. Phasellus et tellus quis mi tempor lobortis.&lt;/p&gt;
 
 &lt;p&gt;Maecenas nec lacus a ipsum consequat venenatis. Integer laoreet vehicula pretium. Sed auctor, augue ut hendrerit pellentesque, metus magna porttitor sem, id pulvinar tellus tellus at elit. Donec et aliquet dui. Quisque at dolor libero, vitae lobortis lorem. Morbi facilisis sem id nulla euismod tincidunt. Aliquam at nulla est. Aenean at laoreet augue. Integer erat sapien, viverra ac scelerisque a, tempor in mauris. Etiam ligula ipsum, ullamcorper vitae tristique vitae, vulputate vitae nisi.&lt;/p&gt;
@@ -300,9 +300,9 @@
  
  <entry>
    <title>Post 4. More info 4</title>
-   <link href="http://codeglomeration.com/blog/2012/06/post-4-more-info-4.html"/>
+   <link href="http://codexbit.com/blog/2012/06/post-4-more-info-4.html"/>
    <updated>2012-06-07T00:04:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/post-4-more-info-4</id>
+   <id>http://codexbit.com/blog/2012/06/post-4-more-info-4</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie ipsum a neque scelerisque vitae molestie justo elementum. In sit amet lorem ut lacus congue tempor. Nulla facilisi. Sed nec magna lorem, nec ultrices lectus. Donec convallis mattis mi, porttitor mattis ligula scelerisque at. Cras vel ultricies elit. Nunc molestie leo non risus vulputate vel tincidunt enim euismod. Phasellus et tellus quis mi tempor lobortis.&lt;/p&gt;
 
 &lt;p&gt;Maecenas nec lacus a ipsum consequat venenatis. Integer laoreet vehicula pretium. Sed auctor, augue ut hendrerit pellentesque, metus magna porttitor sem, id pulvinar tellus tellus at elit. Donec et aliquet dui. Quisque at dolor libero, vitae lobortis lorem. Morbi facilisis sem id nulla euismod tincidunt. Aliquam at nulla est. Aenean at laoreet augue. Integer erat sapien, viverra ac scelerisque a, tempor in mauris. Etiam ligula ipsum, ullamcorper vitae tristique vitae, vulputate vitae nisi.&lt;/p&gt;
@@ -326,9 +326,9 @@
  
  <entry>
    <title>Post 3. More info</title>
-   <link href="http://codeglomeration.com/blog/2012/06/post-3-more-info.html"/>
+   <link href="http://codexbit.com/blog/2012/06/post-3-more-info.html"/>
    <updated>2012-06-07T00:03:45+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/post-3-more-info</id>
+   <id>http://codexbit.com/blog/2012/06/post-3-more-info</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie ipsum a neque scelerisque vitae molestie justo elementum. In sit amet lorem ut lacus congue tempor. Nulla facilisi. Sed nec magna lorem, nec ultrices lectus. Donec convallis mattis mi, porttitor mattis ligula scelerisque at. Cras vel ultricies elit. Nunc molestie leo non risus vulputate vel tincidunt enim euismod. Phasellus et tellus quis mi tempor lobortis.&lt;/p&gt;
 
 &lt;p&gt;Maecenas nec lacus a ipsum consequat venenatis. Integer laoreet vehicula pretium. Sed auctor, augue ut hendrerit pellentesque, metus magna porttitor sem, id pulvinar tellus tellus at elit. Donec et aliquet dui. Quisque at dolor libero, vitae lobortis lorem. Morbi facilisis sem id nulla euismod tincidunt. Aliquam at nulla est. Aenean at laoreet augue. Integer erat sapien, viverra ac scelerisque a, tempor in mauris. Etiam ligula ipsum, ullamcorper vitae tristique vitae, vulputate vitae nisi.&lt;/p&gt;
@@ -352,9 +352,9 @@
  
  <entry>
    <title>Test. Install something.</title>
-   <link href="http://codeglomeration.com/blog/2012/06/test-me.html"/>
+   <link href="http://codexbit.com/blog/2012/06/test-me.html"/>
    <updated>2012-06-06T00:00:00+03:00</updated>
-   <id>http://codeglomeration.com/blog/2012/06/test-me</id>
+   <id>http://codexbit.com/blog/2012/06/test-me</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget dolor eros, quis tincidunt nulla. Quisque nulla nibh, ultricies eu tincidunt sit amet, malesuada vitae dolor. Ut velit elit, vehicula a accumsan eget, accumsan sit amet dolor. Integer mattis commodo ligula, ac euismod tellus placerat sed. Suspendisse ante lectus, feugiat ut placerat ac, malesuada at tellus. Mauris id interdum nulla. Vestibulum ut tortor nulla.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel suscipit est. Praesent sed magna nec quam imperdiet tristique vel et nunc. Proin ornare interdum volutpat. Donec metus libero, laoreet in vestibulum ac, congue id felis. Integer dapibus auctor velit, at mattis orci adipiscing non. Donec eget mi et velit lacinia rutrum. Nullam ultricies ligula sit amet sapien venenatis sed congue erat pellentesque. Praesent quis tortor id nunc fermentum ornare.&lt;/p&gt;
