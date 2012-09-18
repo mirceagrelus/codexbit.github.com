@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CodexBit Software for humans</title>
+    <title>CodexBit Software</title>
     <!-- Bootstrap -->
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -34,7 +34,7 @@
           <div class="btn-group">
             <a class="btn" href="/">Home</a>
             <a class="btn active" href="/products">Products</a>
-            <a class="btn" href="/support">Support</a>
+            <!-- <a class="btn" href="/support">Support</a> -->
             <a class="btn" href="/about">About</a>
           </div>
         </div> <!-- container -->
@@ -54,6 +54,7 @@
             <img id="macStore" src="/images/Mac_App_Store_Badge.png" />
             <img id="appStore" src="/images/App_Store_Badge.png" />
             <img id="iPhone" src="/images/iPhone_4S-medium2.png" />
+            <img id="soonSign-top" src="/images/Available_Soon.png" />
           </div>
         </div>
       </div>
@@ -81,7 +82,7 @@
             </div>
             <div class="span8 center">
               <p class="center white shadow">BarRemote is a simple app that allows you to control your Spotify player from the menubar.
-    It also allows you to control the Spotify player on other Mac machines in your network, if they are also running the BarRemote app.</p>
+    It also allows you to control the Spotify player on other Macs in your network, if they are also running the BarRemote app.</p>
               <p class="center white shadow">Discovery of machines is automatic, and you don't have worry about IP addresses or port numbers. The apps will find themselves and connect automatically.</p>
             </div>
           </div>
@@ -96,23 +97,28 @@
           </div>
 
           <div class="row">
-            <div class="span6"><img src="/images/menubar1.png" /> </div>
-            <div class="span6"><img src="/images/menubar2.png" /> </div>
+            <div class="span6">
+              <img src="/images/menubar1.png" /> 
+              <p class="center white shadow">Big artwork display and playback controls in the menubar. </p> </div>
+            <div class="span6">
+              <img src="/images/menubar2.png" /> 
+              <p class="center white shadow"> If you prefer not to see the controls in the menu bar, just flick a switch and they'll show inside the application window.</p>
+            </div>
           </div> 
           
-          <div class="row">
+          <div class="row pad20Top">
             <div class="span6">
-              <p class="center white shadow pad20Top">Big artwork display and playback controls </p>
-              <p class="center white shadow">in the menubar or in the app.</p>
               <p>&nbsp;</p>
-              <p class="center white shadow">Support for seeking in track, volume control</p>
-              <p class="center white shadow">and shuffle and repeat playlist.</p>
+              <p class="center white shadow">Support for seeking in track.</p>
+              <p class="center white shadow">Jump to any point in the current track.</p>
               <p>&nbsp;</p>
-              <p class="center white shadow">Stop yourself from switching to the Spotify player window to see the artwork, what's playing, or change tracks.</p>
+              <p class="center white shadow">Control volume, shuffle and repeat options of playback.</p>
               <p>&nbsp;</p>
-              <p class="center white shadow">That's all a click away now, in the menubar.</p>
+              <p class="center white shadow">No longer need to switch to the Spotify player to see the artwork, what's playing, or change tracks.</p>
+              <p>&nbsp;</p>
+              <p class="center white shadow">It's all a click away, in the menubar.</p>
             </div>
-            <div class="span6"><img src="/images/menubar3.png" /> </div>
+            <div class="span6 pad20Top"><img src="/images/menubar3.png" /> </div>
           </div> 
 
         </div>
@@ -133,8 +139,8 @@
               <img src="/images/controlling-cut.png" width=320 height=320 />
             </div>
             <div class="span5 center" style="padding-top: 15px;">
-              <p class="center white shadow margin0Bottom">No more do you have to walk over to</p>
-              <p class="center white shadow margin0Bottom">the machine in your home that's playing</p>
+              <p class="center white shadow margin0Bottom">No more walking over to the Mac</p>
+              <p class="center white shadow margin0Bottom"> in your home that is playing Spotify</p>
               <p class="center white shadow">to change tracks or see what's playing.</p>
               <p>&nbsp;</p>
               <p class="center white shadow margin0Bottom">No IP addresses or ports to remember.</p>
@@ -167,18 +173,21 @@
               <img src="/images/iPhone_4S-connectedTo.png" /> 
             </div>
           </div>
+          <div class="row center">
+            <img id="soonSign-ios" src="/images/Available_Soon.png" />
+          </div>
           <div class="row">
             <br/>
             <p class="center white shadow">Just select the machine you want to control from the pull-up menu.</p>
             <p class="center white shadow">No IP address or ports to remember.</p>
           </div>
-          <div class="row">
+          <!-- <div class="row">
             <br />
               <p class="center white shadow">Control playback from iOS using simple gestures</p>
             <div class="row center">
               <img src="/images/gesturesInfo.png" width=400 height=236 />
             </div>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -186,22 +195,31 @@
 
 
 
-
-<div class="rounded-container">
-
-
-
-
-  
-
-
-  <div class="row">
-    
-  </div>
-
-</div>
     </div> <!-- id body -->
     
+    <div class="row">
+      <div id="footer" class="pad20Bottom">
+        <div class="wrap pad10Top">
+          <div class="sharer">
+            <!-- <p class="floatLeft cb-lightBlue" style="opacity:.7;">Get in touch:</p> -->
+            
+            <div class="span10 offset1">
+              <div class="floatLeft">
+                <a id="twitter" class="floatLeft" href="http://twitter.com/codexbit/" target=_blank>Follow CodexBit on Twitter</a>
+              </div>
+              <div class="floatRight">
+                <a id="email" class="" href="mailto:contact@codexbit.com" target=_blank>Get in touch by email</a>
+              </div>
+            </div>
+            
+            <!-- <img id="twitter" src="/images/twitter.png" /> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row center">
+      <p class="pad20Top pad20Bottom cb-lightBlue shadow">&copy; 2012 CodexBit Software Srl-D</p>
+    </div>
     
   </body>
 </html>

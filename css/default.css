@@ -195,6 +195,20 @@ body {
 	margin-top: 100px;
 }
 
+#heroBR-box #soonSign-top{
+	position: absolute;
+	margin-top: -60px;
+	margin-left: -330px;
+
+}
+
+#body #soonSign-ios{
+	/*position: absolute;*/
+	margin-top: -1500px;
+	margin-left: -600px;
+	text-align: center;
+}
+
 #body .box1{
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -208,9 +222,72 @@ body {
 	border-bottom: 1px solid #4d86a7;
 }
 
+#footer{
+	/*background-color: red;*/
+	background: url('/images/footer_back.png') repeat-x;
+	height: 58px;
+}
 
+.cb-lightBlue{
+	color: #4d86a7;
+}
+
+.cb-lightBlue0{
+	color: #96d0e4;
+}
+
+.sharer{
+	/*float: left;*/
+}
+
+#twitter{
+	display: block;
+	opacity: .8;
+	background: url('/images/twitter.png') no-repeat;
+	height: 35px;
+	/*width: 40px;*/
+	text-indent: 50px;
+	color: #4d86a7;
+	text-decoration: none;
+}
+
+#twitter:hover{
+	opacity: 1;
+	text-decoration: none;
+	color: #4d86a7;
+}
+
+#email{
+	display: block;
+	opacity: .8;
+	background: url('/images/email.png') no-repeat;
+	height: 35px;
+	text-indent: 70px;
+	color: #4d86a7;
+	text-decoration: none;
+}
+
+#email:hover{
+	opacity: 1;
+	text-decoration: none;
+	color: #4d86a7;
+}
+
+#twitter, #facebook, #email {
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-o-transition: all .4 ease;
+	transition: all .4s ease;
+}
 /* ===================== general =====================*/
 
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float:right;
+}
 
 .center{
 	text-align: center;
@@ -232,6 +309,14 @@ h3.subtitle{
 	background: url('/images/hr_blue.png') repeat-x;
 }
 
+.pad10Top{
+	padding-top: 10px;
+}
+
+.pad15Top{
+	padding-top: 15px;
+}
+
 .pad20Top{
 	padding-top: 20px;
 }
@@ -246,11 +331,20 @@ h3.subtitle{
 
 /*==================== override bootstrap ===================*/
 
+#header .btn-group{
+	float:right;
+}
+
 #header .btn{
 	line-height: 30px;
 	/*padding: 4px 20px;*/
 	font-size: 16px;
 	font-weight: bold;
+	color: #023e62;
+	text-shadow: 1px 1px 5px white;
+}
+
+#header .btn.active{
 	color: #024b75;
 }
 
