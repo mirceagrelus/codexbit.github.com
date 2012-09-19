@@ -107,7 +107,7 @@ body {
 #hero-box .product-icon{
 	display: block;
 	position: absolute;
-	margin-top: 95px;
+	margin-top: 45px;
 	width: 330px;
 	height: 330px;
 	background: url('/images/BarRemote_icon_shelf.png');
@@ -119,9 +119,9 @@ body {
 	font-weight: bold;
 	text-shadow: 2px 2px 10px black;
 	color: white;
-	position: absolute;
+	/*position: absolute;*/
 	width: 100%;
-	margin-top: 35px;
+	/*margin-top: 35px;*/
 }
 
 #hero-box h3.big {
@@ -134,7 +134,7 @@ body {
 }
 
 #hero-box .textposition{
-	padding-top: 130px;
+	padding-top: 70px;
 	color: white;
 }
 
@@ -196,9 +196,13 @@ body {
 }
 
 #heroBR-box #soonSign-top{
-	position: absolute;
+	/*position: absolute;
 	margin-top: -60px;
-	margin-left: -330px;
+	margin-left: -330px;*/
+
+	margin-top: -1150px;
+	margin-left: 600px;
+	z-index: 100;
 
 }
 
@@ -226,6 +230,10 @@ body {
 	/*background-color: red;*/
 	background: url('/images/footer_back.png') repeat-x;
 	height: 58px;
+	float: left;
+	clear: both;
+	display: inline;
+	width: 100%;
 }
 
 .cb-lightBlue{
@@ -242,42 +250,42 @@ body {
 
 #twitter{
 	display: block;
-	opacity: .8;
+	opacity: .6;
 	background: url('/images/twitter.png') no-repeat;
 	height: 35px;
 	/*width: 40px;*/
 	text-indent: 50px;
-	color: #4d86a7;
+	color: #96d0e4;
 	text-decoration: none;
 }
 
 #twitter:hover{
 	opacity: 1;
 	text-decoration: none;
-	color: #4d86a7;
+	color: #96d0e4;
 }
 
 #email{
 	display: block;
-	opacity: .8;
+	opacity: .6;
 	background: url('/images/email.png') no-repeat;
 	height: 35px;
 	text-indent: 70px;
-	color: #4d86a7;
+	color: #96d0e4;
 	text-decoration: none;
 }
 
 #email:hover{
 	opacity: 1;
 	text-decoration: none;
-	color: #4d86a7;
+	color: #96d0e4;
 }
 
 #twitter, #facebook, #email {
-	-webkit-transition: all .4s ease;
-	-moz-transition: all .4s ease;
-	-o-transition: all .4 ease;
-	transition: all .4s ease;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2 ease;
+	transition: all .2s ease;
 }
 /* ===================== general =====================*/
 
@@ -303,6 +311,10 @@ h3.subtitle{
 
 .shadow{
 	text-shadow: 2px 2px 10px black;
+}
+
+.light-shadow{
+	text-shadow: 1px 1px 3px black;
 }
 
 .hr-blue{
