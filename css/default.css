@@ -49,6 +49,7 @@ body {
 	margin: 45px 0px;
 	text-shadow: 1px 1px 5px black;
 	letter-spacing: -4px;
+	text-decoration: none;
 }
 
 #branding .tagline {
@@ -249,7 +250,7 @@ body {
 }
 
 #twitter{
-	display: block;
+	/*display: block;*/
 	opacity: .6;
 	background: url('/images/twitter.png') no-repeat;
 	height: 35px;
@@ -281,11 +282,29 @@ body {
 	color: #96d0e4;
 }
 
-#twitter, #facebook, #email {
+#twitter, #facebook, #email, #linkedIn {
 	-webkit-transition: all .2s ease;
 	-moz-transition: all .2s ease;
 	-o-transition: all .2 ease;
 	transition: all .2s ease;
+}
+
+#linkedIn{
+	opacity: .9;
+	/*display: block;*/
+	/*font-family: Helvetica, verdana;*/
+	color: #96d0e4;
+	/*font-size: 18px;*/
+	width: 180px;
+	height: 30px;
+	background: url('/images/linkedIn_logo1.png') no-repeat;
+	text-indent: 30px;
+}
+
+#linkedIn:hover{
+	text-decoration: none;
+	color: white;
+	opacity: 1;
 }
 /* ===================== general =====================*/
 
