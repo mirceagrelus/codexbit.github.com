@@ -290,20 +290,15 @@ body {
 }
 
 #linkedIn{
-	opacity: .9;
+	opacity: .8;
+	margin-right: 150px;
 	/*display: block;*/
 	/*font-family: Helvetica, verdana;*/
-	color: #96d0e4;
 	/*font-size: 18px;*/
-	width: 180px;
-	height: 30px;
-	background: url('/images/linkedIn_logo1.png') no-repeat;
-	text-indent: 30px;
 }
 
 #linkedIn:hover{
 	text-decoration: none;
-	color: white;
 	opacity: 1;
 }
 /* ===================== general =====================*/
