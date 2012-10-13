@@ -315,6 +315,10 @@ body {
 	text-align: center;
 }
 
+.justify{
+	text-align: justify;
+}
+
 h3.subtitle{
 	margin-bottom: 0px;
 }
@@ -341,6 +345,10 @@ h3.subtitle{
 
 .pad15Top{
 	padding-top: 15px;
+}
+
+.pad40Top{
+	padding-top: 40px;
 }
 
 .pad20Top{
