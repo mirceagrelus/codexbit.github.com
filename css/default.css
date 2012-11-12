@@ -10,6 +10,9 @@ body {
 	/*background-color: red;*/
 	/*background: url('/images/background_grad.png') repeat-x;*/
 }
+body.roomcol{
+	background-color: #efefef;
+}
 
 #header {
 	/*background: yellow;*/
@@ -52,8 +55,14 @@ body {
 	text-decoration: none;
 }
 
+#branding.roomcol .logo a {
+	/*color: #454545;*/
+	/*text-shadow: 1px 1px 4px white;*/
+	color: #fafafa;
+	text-shadow: 1px 1px 5px #454545;
+}
+
 #branding .tagline {
-	/*background: url(/img/template/tagline_tapbots.gif);*/
 	width: 220px;
 	height: 40px;
 	margin: 40px 0 40px 20px;
@@ -301,6 +310,38 @@ body {
 	text-decoration: none;
 	opacity: 1;
 }
+
+/* ============= room colors ==================*/
+
+#blah {
+	/*display: block;
+	position: absolute;*/
+	/*margin-top: 45px;*/
+	/* 960 min width */
+	margin-left: -60px;
+	width: 600px;
+	height: 950px;
+	background-image: url('/products/roomcolors/images/iPhoneWhite.png');
+	/*text-indent: -9000px;*/
+}
+
+.separator-image
+{
+	/*: url('/products/roomcolors/images/dark-white-hr.png') repeat-x;*/
+	height: 2px;
+	width: 100%;
+	/*background-repeat: repeat-x;*/
+	/*background-color: red;*/
+}
+
+.rc-head
+{
+	background-color: red;
+	width:460px; 
+	float:left; 
+	margin-left:-40px;
+}
+
 /* ===================== general =====================*/
 
 .floatLeft{
