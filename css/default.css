@@ -336,10 +336,17 @@ body.roomcol{
 
 .rc-head
 {
-	background-color: red;
+	/*background-color: red;*/
 	width:460px; 
 	float:left; 
 	margin-left:-40px;
+}
+
+.headTitle
+{
+	font-size: 46px;
+	line-height: 25px;
+	font-weight: bold;
 }
 
 /* ===================== general =====================*/
@@ -368,8 +375,16 @@ h3.subtitle{
 	color: white;
 }
 
+.blackish{
+	color: #454545;
+}
+
 .shadow{
 	text-shadow: 2px 2px 10px black;
+}
+
+.wshadow{
+	text-shadow: 2px 2px 10px white;
 }
 
 .light-shadow{
