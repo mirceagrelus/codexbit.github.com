@@ -10,13 +10,13 @@ body {
 	/*background-color: red;*/
 	/*background: url('/images/background_grad.png') repeat-x;*/
 }
-body.roomcol{
+body.roomcolors{
 	background-color: #efefef;
 	color: #454545;
 }
 
 #header {
-	/*background: yellow;*/
+	background-color: #efefef;
 	width: 100%;
 	min-width: 960px;
 	float: left;
@@ -50,7 +50,7 @@ body.roomcol{
 	/*width: 140px;*/
 	/*height: 80px;*/
 	/*text-indent: -9000px;*/
-	margin: 45px 0px;
+	margin: 30px 0px;
 	text-shadow: 1px 1px 5px black;
 	letter-spacing: -4px;
 	text-decoration: none;
@@ -82,13 +82,10 @@ body.roomcol{
 	/*background-color: yellow;*/
 	float: right;
 	/*width: 460px;*/
-	width: 365px;
-	margin: 40px 0;
+	width: 325px;
+	margin: 35px;
 }
 
-#header .container{
-	width: 365px;
-}
 
 #body {
 	/*background: white;*/
@@ -159,7 +156,7 @@ body.roomcol{
 /*============== BarRemote product =====*/
 #heroBR-full{
 	width:100%;
-	height: 1127px;
+	height: 1125px;
 	background: url('/images/heroBR-back.png') repeat-x;
 }
 
@@ -237,14 +234,24 @@ body.roomcol{
 	border-bottom: 1px solid #4d86a7;
 }
 
-#footer{
-	/*background-color: red;*/
-	background: url('/images/footer_back.png') repeat-x;
-	height: 58px;
+#footer
+{
 	float: left;
 	clear: both;
 	display: inline;
 	width: 100%;
+}
+
+#footer.barremote{
+	/*background-color: red;*/
+	background: url('/images/footer_back.png') repeat-x;
+	height: 58px;
+}
+
+#footer.default{
+	background: url('/images/footer.png') repeat-x;
+	height: 58px;
+
 }
 
 .cb-lightBlue{
@@ -266,14 +273,17 @@ body.roomcol{
 	height: 35px;
 	/*width: 40px;*/
 	text-indent: 50px;
-	color: #96d0e4;
+	color: #454545;
 	text-decoration: none;
+}
+
+#twitter.barremote{
+	color: #96d0e4;
 }
 
 #twitter:hover{
 	opacity: 1;
 	text-decoration: none;
-	color: #96d0e4;
 }
 
 #email{
@@ -282,14 +292,17 @@ body.roomcol{
 	background: url('/images/email.png') no-repeat;
 	height: 35px;
 	text-indent: 70px;
-	color: #96d0e4;
+	color: #454545;
 	text-decoration: none;
+}
+
+#email.barremote{
+	color: #96d0e4;
 }
 
 #email:hover{
 	opacity: 1;
 	text-decoration: none;
-	color: #96d0e4;
 }
 
 #twitter, #facebook, #email, #linkedIn {
@@ -310,6 +323,12 @@ body.roomcol{
 #linkedIn:hover{
 	text-decoration: none;
 	opacity: 1;
+}
+
+#copyright
+{
+	color: #807f7f;
+	font-size: 16px;
 }
 
 /* ============= room colors ==================*/
