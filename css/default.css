@@ -6,13 +6,15 @@ body {
 	/*background: #19191A;*/
 	/*text-align: center;*/
 	min-width: 960px;
-	background-color: #025382;
+	background-color: #efefef;
+	color: #454545;
 	/*background-color: red;*/
 	/*background: url('/images/background_grad.png') repeat-x;*/
 }
-body.roomcolors{
-	background-color: #efefef;
-	color: #454545;
+
+body.barremote{
+	background-color: #025382;
+	
 }
 
 #header {
@@ -246,6 +248,20 @@ body.roomcolors{
 	border-bottom: 1px solid #4d86a7;
 }
 
+#body .grayBoxTop{
+	background: url('/images/home_box_top.png') repeat-x;
+	height: 12px;
+}
+
+#body .grayBox{
+	background-color: #edebeb;
+}
+
+#body .grayBoxBottom{
+	background: url('/images/home_box_bottom.png') repeat-x;
+	height: 6px;
+}
+
 #footer
 {
 	float: left;
@@ -353,17 +369,19 @@ body.roomcolors{
 	margin-left: -60px;
 	width: 600px;
 	height: 950px;
-	background-image: url('/products/roomcolors/images/iPhoneWhite.png');
+	background-image: url('/apps/roomcolors/images/iPhoneWhite.png');
 	/*text-indent: -9000px;*/
 }
 
 .separator-image
 {
-	/*: url('/products/roomcolors/images/dark-white-hr.png') repeat-x;*/
+	/*: url('/apps/roomcolors/images/dark-white-hr.png') repeat-x;*/
 	height: 2px;
 	width: 100%;
 	/*background-repeat: repeat-x;*/
 	/*background-color: red;*/
+	box-shadow: 0px -1px 1px 1px #dfdfdf;
+	box-shadow: 
 }
 
 .rc-head
