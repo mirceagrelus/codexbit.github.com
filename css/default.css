@@ -366,11 +366,17 @@ body.barremote{
 	position: absolute;*/
 	/*margin-top: 45px;*/
 	/* 960 min width */
-	margin-left: -60px;
-	width: 600px;
-	height: 950px;
-	background-image: url('/apps/roomcolors/images/iPhoneWhite.png');
+	
+	/*margin-left: -60px;*/
+	width: 400px;
+	height: 750px;
+	/*background-image: url('/apps/roomcolors/images/iPhone_white.png');*/
+	background-image: url('/apps/roomcolors/images/iPhone_black.png');
 	/*text-indent: -9000px;*/
+}
+
+#showcase.w{
+	background-image: url('/apps/roomcolors/images/iPhone_white.png');
 }
 
 .separator-image
@@ -387,9 +393,9 @@ body.barremote{
 .rc-head
 {
 	/*background-color: red;*/
-	width:460px; 
+	width:480px; 
 	float:left; 
-	margin-left:-40px;
+	margin-left:040px;
 }
 
 .headTitle
