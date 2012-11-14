@@ -81,10 +81,22 @@ body.roomcolors{
 #header .navigation {
 	/*background-color: yellow;*/
 	float: right;
-	/*width: 460px;*/
-	width: 325px;
-	margin: 35px;
+	width: 460px;
+	/*width: 325px;*/
+	/*margin: 35px;*/
 }
+
+#header .siteNav{
+	margin-top: 5px;
+	float: right;
+
+}
+
+#header .appNav{
+	margin-top: 10px;
+	float: right;
+}
+
 
 
 #body {
