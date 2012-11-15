@@ -398,6 +398,22 @@ body.barremote{
 	margin-left:040px;
 }
 
+#MacAppStore.roomcolors
+{
+	display: block;
+	background: url('/apps/roomcolors/images/Mac_link.png');
+	background-size: 208px 106px;
+	background-repeat:no-repeat;
+	width:208px; 
+	height:106px;
+	float: left;
+}
+
+#MacAppStore.roomcolors:hover{
+	background: url('/apps/roomcolors/images/Mac_link_hover.png');
+	background-size: 208px 106px;
+	background-repeat:no-repeat;
+}
 .headTitle
 {
 	font-size: 46px;

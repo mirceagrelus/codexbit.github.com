@@ -4,7 +4,7 @@
 
   dir = Dir::pwd
   #port = 12000 + (dir.hash % 1000)
-  port = 12276
+  port = 12277
 
   puts "URL: http://#{Socket.gethostname}:#{port}"
 
