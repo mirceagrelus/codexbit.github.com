@@ -402,7 +402,7 @@ body.barremote{
 {
 	display: block;
 	background: url('/apps/roomcolors/images/Mac_link.png');
-	background-size: 208px 106px;
+	background-size: 208px 212px;
 	background-repeat:no-repeat;
 	width:208px; 
 	height:106px;
@@ -410,10 +410,29 @@ body.barremote{
 }
 
 #MacAppStore.roomcolors:hover{
-	background: url('/apps/roomcolors/images/Mac_link_hover.png');
+	/*background: url('/apps/roomcolors/images/Mac_link_hover.png');
 	background-size: 208px 106px;
-	background-repeat:no-repeat;
+	background-repeat:no-repeat;*/
+	background-position: 0 -106px;
 }
+
+#iOSAppStore.roomcolors{
+	display: block;
+	background: url('/apps/roomcolors/images/iPhone_link.png');
+	background-size: 208px 212px;
+	background-repeat:no-repeat;
+	width:208px; 
+	height:106px;
+	float: left;
+}
+
+#iOSAppStore.roomcolors:hover{
+	/*background: url('/apps/roomcolors/images/iPhone_link_hover.png');
+	background-size: 208px 106px;
+	background-repeat:no-repeat;*/
+	background-position: 0 -106px;
+}
+
 .headTitle
 {
 	font-size: 46px;
