@@ -1,7 +1,7 @@
 {
 	"countries":[
-		{"code":" ", "name":"Select country"},
-		{"code":"AU", "name":"Australia"},
-		{"code":"BO", "name":"Bolovia"}
+		{"coder":" ", "name":"Select country"},
+		{"coder":"AU", "name":"Australia"},
+		{"coder":"BO", "name":"Bolovia"}
 	]
 }
