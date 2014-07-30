@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <meta property="og:title" content="BarRemote (for Spotify) - Control Spotify from your iPhone or other Macs in your network."/>
-    <meta property="og:description" content="Remote control for Spotify for iPhone and Mac."/>
+    <meta property="og:description" content="Spotify remote control for iPhone and Mac."/>
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="CodexBit"/>
     <meta name="description" content="BarRemote is a Spotify remote. A simple app that allows you to control Spotify playback from your iPhone or from another Mac in your network. No configuration required. Automatic discovery of machines in your network.">
     <title>BarRemote - Control Spotify from your iPhone or you Mac. Spotify remote.</title>
     <!-- Bootstrap -->
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
+  <!--  <script src="http://code.jquery.com/jquery-latest.js"></script> -->
+   <!-- <script src="/bootstrap/js/bootstrap.min.js"></script> -->
 
-    <link rel="stylesheet" type="text/css" media="all" href="/css/default.css?v=1" />
+    <!-- <link rel="stylesheet" type="text/css" media="all" href="/css/default.css?v=1" /> -->
+    <link href="/css/defaultv2.css?v=1" rel="stylesheet">
     <!-- ga -->
     <script type="text/javascript">
 
@@ -28,237 +31,196 @@
     </script>
     <!--e ga -->
   </head>
-  <body class="barremote">
-    <div id="header">
-      <div class="wrap">
-        <div id="branding">
-          <div class="logo">
-            <!-- <a href="/" title="Home">codexBit</a> -->
-            <a href="/"><img src="/images/codexbit_logo.png" style="width:250px; height:55px;" /> </a>
-          </div>
-        </div>
+  <body>
 
-      <div class="navigation">
-        <div class="siteNav">
-          <div style="float:left;"><a href="/"> <img src="/images/nav_home.png" style="width:75px; height:31px;"  border="0" /></a></div>
-          <div style="float:left;"><a href="/apps"><img src="/images/nav_apps.png" style="width:75px; height:31px;" border="0" /></a></div>
-          <div style="float:left;"><a href="/about"><img src="/images/nav_about.png" style="width:75px; height:31px;" /></a></div>
-        </div>
-        <div class="appNav">
-          <div style="float:left;"><a href="/barremote"><img src="/images/nav_barremote_sel.png" style="width:150px; height:38px;" /></a></div>
-          <div style="float:left;"><a href="/roomcolors"><img src="/images/nav_roomcolors.png" style="width:150px; height:38px;" /></a></div>
-        </div>
-      </div>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
 
-      </div>
-    </div> <!-- header -->
-    
-    <div id="body">
-      <div id="heroBR-full">
-        <!-- <img id="iMac" src="/images/iMac_27inch-corner2.png" /> -->
-        <div class="wrap">
-          <div id="heroBR-box">
-            <span class="title center">BarRemote for Spotify</span>
-            <!-- <div id="iMac"></div> -->
-            <img id="iMac" src="/images/iMac_27inch-full.png" style="width:1205px;" />
-            <a href="https://itunes.apple.com/us/app/barremote-for-spotify/id563191598?ls=1&mt=12" target="_blank"><img id="macStore" src="/images/Mac_App_Store_Badge.png" /></a>
-            <a href="https://itunes.apple.com/us/app/barremote/id570584129?ls=1&mt=8" target="_blank"><img id="appStore" src="/images/App_Store_Badge.png" /></a>
-            <img id="iPhone" src="/images/iPhone_4S-home.png" />
-            <!-- <img id="soonSign-top" src="/images/Available_Soon.png" /> -->
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-      <div class="wrap">
-        <div class="row">
-          <div class="center">
-            <!-- <div class="hr-blue">&nbsp;</div> -->
-            <h1 class="white shadow pad20Top">Control Spotify playback on your Mac </h1>
-            <h1 class="white shadow">or on remote Macs in your network,</h1>
-            <h1 class="white shadow pad20Bottom">using your Mac or iOS device.</h1>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="hr-blue">&nbsp;</div> -->
-      <div class="box1">
-        <div class="wrap">
-          <div class="row pad20Top pad20Bottom">
-            <div class="span4 center">
-              <img src="/images/BR-logo250.png" />
+    <div class="zHeaderOuter">
+      <div class="zHeader">
+        <div class="zHeaderInner">
+          <div class="masthead">
+            <div class="masthead-inner">
+              <div class="masthead-brand"><a class="black" href="/">codexBit</a></div>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="/apps/">My Apps</a></li>
+                <li><a href="/about/">About</a></li>
+              </ul>
             </div>
-            <div class="span8 center">
-              <p class="center white shadow">BarRemote is a simple app that allows you to control your Spotify player from the menubar.
-    It also allows you to control the Spotify player on other Macs in your network, if they are also running the BarRemote app.</p>
-              <p class="center white shadow">Discovery of machines is automatic, and you don't have worry about IP addresses or port numbers. The apps will find themselves and connect automatically.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="box2">
-        <div class="wrap">
-          <div class="row center">
-            <h1 class="white shadow pad20Top pad20Bottom">Control Spotify directly from the menu bar.</h1>
-            <p class="center white shadow pad20Bottom">Launch the app and you're instantly controlling Spotify on your local machine.</p>
-          </div>
-
-          <div class="row">
-            <div class="span6">
-              <img src="/images/menubar1.png" /> 
-              <p class="center white shadow">Big artwork display and playback controls in the menubar. </p> </div>
-            <div class="span6">
-              <img src="/images/menubar2.png" /> 
-              <p class="center white shadow"> If you prefer not to see the controls in the menu bar, just flick a switch and they'll show inside the application window.</p>
-            </div>
-          </div> 
-          
-          <div class="row pad20Top">
-            <div class="span6">
-              <p>&nbsp;</p>
-              <p class="center white shadow">Support for seeking in track.</p>
-              <p class="center white shadow">Jump to any point in the current track.</p>
-              <p>&nbsp;</p>
-              <p class="center white shadow">Control volume, shuffle and repeat options of playback.</p>
-              <p>&nbsp;</p>
-              <p class="center white shadow">No longer need to switch to the Spotify player to see the artwork, what's playing, or change tracks.</p>
-              <p>&nbsp;</p>
-              <p class="center white shadow">It's all a click away, in the menubar.</p>
-            </div>
-            <div class="span6 pad20Top"><img src="/images/menubar3.png" /> </div>
-          </div> 
-
-        </div>
-      </div> <!-- box2 -->
-
-      <div class="box1">
-        <div class="wrap">
-          <div class="row center">
-            <h1 class="white shadow pad20Top pad20Bottom">Control remote machines</h1>
-            <p class="center white shadow">Also launch the app on other Macs in your network</p>
-            <p class="center white shadow">and they'll automatically discover each other</p>
-            <p class="center white shadow">and allow you to control any of them.</p>
-            <p class="center white shadow pad20Bottom">No configuration required.</p>
-          </div>
-
-          <div class="row">
-            <div class="span5 offset1 center">
-              <img src="/images/controlling-cut.png" width=320 height=320 />
-            </div>
-            <div class="span5 center" style="padding-top: 15px;">
-              <p class="center white shadow margin0Bottom">No more walking over to the Mac</p>
-              <p class="center white shadow margin0Bottom"> in your home that is playing Spotify</p>
-              <p class="center white shadow">to change tracks or see what's playing.</p>
-              <p>&nbsp;</p>
-              <p class="center white shadow margin0Bottom">No IP addresses or ports to remember.</p>
-              <p class="center white shadow margin0Bottom">Just select the Mac from the list.</p>
-              <p class="center white shadow margin0Bottom">That's it.</p>
-              <p>&nbsp;</p>
-              <p class="center white shadow">You're now controlling that machine.</p>
-            </div>
-          </div>
-
-          <div class="row center">
-            <h1 class="white shadow pad40Top">How to make remote control fun</h1>
-          </div>
-          <div class="row">
-            <div class="span8 offset2">
-              <p class="white shadow justify pad20Top">1. Fire the radio. In the office, have one machine that is playing Spotify. Using remote control anyone can skip that annoying track, or turn down the volume if that important phone call comes in.</p>
-              <p class="white shadow justify">You see, I'm all for democracy in the office.</p>
-
-              <p class="white shadow justify pad20Top">2. For the curious. If everyone in your office is using headphones you can all peak at what each other is listening to. You obviously don't want everyone to be able to change your tracks. Just flick the switch to disable remote control of your machine. Now they can only see what you're playing.</p>
-              <p class="white shadow justify">Still won't help you with those tracks you secretly enjoy. The ones you don't want anyone to know about.</p>
-
-              <p class="white shadow justify pad20Top">3. For the physically active. With the release of the iOS app, playback control is in your pocket. No matter where you are. No matter... </p>
-            </div>
-          </div>
-            <!--p class="white shadow">We're all for democracy in the office.</p-->
-          
-
-        </div>
-      </div>
-
-      <div class="box2">
-        <div class="wrap">
-          <div class="row center">
-            <h1 class="white shadow pad20Top pad20Bottom">Control from iOS devices</h1>
-          </div>
-          <div class="row">
-            <p class="center white shadow">Just launch the free iOS app and it will discover all the</p>
-            <p class="center white shadow">Macs in your network running the BarRemote app</p>
-            <p class="center white shadow">and allow you to control any of them.</p>
-            <p class="center white shadow pad20Bottom">No configuration required.</p>
-          </div>
-           <div class="row">
-            <div class="span6 center">
-              <img src="/images/iPhone_4S-home.png" /> 
-            </div>
-            <div class="span6 center"> 
-              <img src="/images/iPhone_4S-connectedTo1.png" /> 
-            </div>
-          </div>
-          <!-- <div class="row center">
-            <img id="soonSign-ios" src="/images/Available_Soon.png" />
-          </div> -->
-          <div class="row">
-            <br/>
-            <p class="center white shadow">Launch Spotify directly from you iOS device if it's not running on your Mac.</p>
-          </div>
-          <div class="row pad20Top">
-            <div class="span6 center">
-              <img src="/images/iPhone_4S-connectedTo2.png" /> 
-            </div>
-            <div class="span6 center"> 
-              <img src="/images/iPhone_4S-connectedTo3.png" /> 
-            </div>
-          </div>
-          <div class="row">
-            <br/>
-            <p class="center white shadow">Select the Mac you want to control from the list.</p>
-            <p class="center white shadow pad20Bottom">No hassle with IPs or port numbers.</p>
-          </div>
-          <!-- <div class="row">
-            <br />
-              <p class="center white shadow">Control playback from iOS using simple gestures</p>
-            <div class="row center">
-              <img src="/images/gesturesInfo.png" width=400 height=236 />
-            </div>
-          </div> -->
-
-        </div>
-      </div>
-      
-
-
-
-    </div> <!-- id body -->
-    
-    <div class="row">
-      <div id="footer" class="barremote pad20Bottom">
-        <div class="wrap pad10Top">
-          <div class="sharer">
-            <!-- <p class="floatLeft cb-lightBlue" style="opacity:.7;">Get in touch:</p> -->
-            
-            <div class="span10 offset1">
-              <div class="floatLeft">
-                <a id="twitter" class="barremote floatLeft" href="http://twitter.com/codexbit/" target=_blank>Follow CodexBit on Twitter</a>
-              </div>
-              <div class="floatRight">
-                <a id="email" class="barremote" href="mailto:contact@codexbit.com" target=_blank>Get in touch by email</a>
-              </div>
-            </div>
-            
-            <!-- <img id="twitter" src="/images/twitter.png" /> -->
           </div>
         </div>
       </div>
     </div>
+
+     </div> <!-- inner cover -->
+        </div>
+      </div>
+    </div> <!-- site-wrapper -->
+    
+  
+
+    <div class="site-wrapper greenBlueGradient">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+
+            <div class="pad40Top pad40Bottom">
+              <!-- <div><h1 class="title1 blackish center">Control Spotify from your Mac or iPhone</h1></div> -->
+              <div><h1 class="title1 blackish center">Control Spotify on every Mac in your network</h1></div>
+              <div><h1 class="title1 blackish center">from another Mac or from your iPhone</h1></div>
+            </div>
+
+            <div class="about50 bremoteapp center">
+              <img class="barremoteMacApp" src="images/barremote_mac_app1.png" /> <br />
+              <a href="https://itunes.apple.com/us/app/barremote-for-spotify/id563191598?ls=1&mt=12" target="_blank"> <img class="barremoteMacStore center" src="/images/MacAppStore_badge.png" /> </a>
+            </div>
+
+            <div class="about50 center">
+              <img class="barremoteiPhoneApp" src="images/barremote_iPhone1.png" /> <br />
+              <!-- <img class="barremoteMacApp" src="images/barremote_mac_app1huh.png" /> <br /> -->
+              <a href="https://itunes.apple.com/us/app/barremote/id570584129?ls=1&mt=8" target="_blank"> <img class="appStoreBadge center" src="/images/AppStore_badge.png" /> </a>
+            </div>
+            
+            <div style="clear:both;">&nbsp;</div>
+
+          </div> <!-- inner cover -->
+        </div>
+      </div>
+    </div> <!-- site-wrapper -->
+
+
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+            <div class="pad40Top">
+              <div class="center">
+                <img class="barremoteIcon" src="images/barremote_icon.png" /> 
+                 <span class="title1">BarRemote (for Spotify)</span>
+              </div>
+
+
+             <!--  <div class="about50 center pad40Top">
+                <p class="title1">BarRemote (for Spotify)</p>
+                <br />
+              </div>
+             </div>
+             -->
+            <div style="clear:both;">&nbsp;</div>
+
+            </div>
+          </div> <!-- inner cover -->
+        </div>
+      </div>
+    </div> <!-- site-wrapper -->
+
+
+
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+            <div class="pad20Top pad40Bottom">
+              <div class="about50 bremoteapp1 center">
+                <img class="barremoteMacApp" src="images/barremote_mac_app2.png" /> <br />
+              </div>
+
+
+              <div class="about50 center pad40Top">
+                <p>BarRemote for Mac lives in your Menu Bar and lets you to control the Spotify player on your Mac or on other Macs in your network.</p>
+                <br />
+                <p>You don't have to fiddle with IP addresses or port numbers. Your Macs and iOS devices will discover each other automatically, when they're on the same network.</p>
+                <br />
+                <p>You can seek in the current playing track, shuffle, repeat and navigate the current playlist, control volume, and search the Spotify library to play albums and tracks</p>
+                <br />
+                <p>You can also hide the playback controls from the Menu Bar if you prefer a minimal look.</p>
+              </div>
+             </div>
+            
+            <div style="clear:both;">&nbsp;</div>
+
+
+          </div> <!-- inner cover -->
+        </div>
+      </div>
+    </div> <!-- site-wrapper -->
+
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+            <div class="pad40Top">
+              <div class="about50 bremoteapp1 center">
+                <img class="barremoteMacApp" src="images/barremote_mac_app3.png" /> <br />
+                <p><strong>Automatic discovery on local network</strong></p>
+              </div>
+
+
+             <div class="about50 bremoteapp1 center">
+                <p class="title1">Tips for remote control:</p>
+                <br />
+                <p>1. No more radio. In the office, have one machine that is playing Spotify. Using remote control, anyone can skip the annoying track, or turn down the volume if a call comes in.</p>
+                <br />
+                <p>2. For the curious. If everyone in the office is using headphones you can all peak at what each other is listening to. You obviosuly don't want everyone to be able to change your tracks. So just turn off the option that allows remote control of your machine. Now they can only see what you're playing </p>
+                <p>Won't help you with those tracks you secretely enjoy and don't want anyone else to know though.</p>
+                <br />
+                <p>3. Move around. With your iPhone always around, control is always around.</p>
+              </div>
+            
+            <div style="clear:both;">&nbsp;</div>
+
+            </div>
+          </div> <!-- inner cover -->
+        </div>
+      </div>
+    </div> <!-- site-wrapper -->
+
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+
+              <!-- <div><h1 class="title1 blackish center">Control Spotify from your Mac or iPhone</h1></div> -->
+              <div><h1 class="title1 blackish center pad10Top pad10Bottom">Search the Spotify library</h1></div>
+
+              <div class="about33 bremoteapp1 center">
+                <img src="images/barremote_mac_app4.png" /> <br />
+              </div>
+
+
+             <div class="about33 bremoteapp1 center">
+                <img src="images/barremote_mac_app5.png" /> <br />
+              </div>
+
+              <div class="about33 bremoteapp1 center">
+                <img src="images/barremote_mac_app6.png" /> <br />
+              </div>
+            
+            <div style="clear:both;">&nbsp;</div>
+
+
+          </div> <!-- inner cover -->
+        </div>
+      </div>
+    </div> <!-- site-wrapper -->
+
+    <div class="site-wrapper blueBackground">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+            <div style="height:2px;"></div>
+
+          </div> <!-- inner cover -->
+        </div>
+      </div>
+    </div> <!-- site-wrapper -->
+
     <div class="row center">
-      <p class="pad20Top pad20Bottom cb-lightBlue shadow">&copy; 2012 CodexBit Software Srl-D</p>
+      <p id="copyright" class="pad20Top pad20Bottom">CodexBit Software Srl-D</p>
     </div>
+
     
   </body>
 </html>

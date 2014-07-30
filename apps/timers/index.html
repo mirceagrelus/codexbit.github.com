@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta property="og:title" content="RoomColors - Your display an ambient light source."/>
-    <meta property="og:description" content="Your display as an ambient light source. Remote control display colors."/>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta property="og:title" content="Timers - Multiple countdown timers"/>
+    <meta property="og:description" content="Timer iPhone app. Multiple countdown timers."/>
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="CodexBit"/>
-    <title>RoomColors - Your display an ambient light source</title>
+    <meta name="description" content="Simple and clean iPhone timer app with support for multiple countdown timers. You receive notifications when the timers run up. The app doesn't need to be running to receive the notifications. You'll get them even if the app is closed, or in the background.After the timers run down, they start counting up, so you know how much time has elapsed since they went off. ">
+    <title>Timers - Multiple countdown timers</title>
     <!-- Bootstrap -->
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
+  <!--  <script src="http://code.jquery.com/jquery-latest.js"></script> -->
+   <!-- <script src="/bootstrap/js/bootstrap.min.js"></script> -->
 
-    <link rel="stylesheet" type="text/css" media="all" href="/css/default.css?v=1" />
+    <!-- <link rel="stylesheet" type="text/css" media="all" href="/css/default.css?v=1" /> -->
+    <link href="/css/defaultv2.css?v=1" rel="stylesheet">
     <!-- ga -->
     <script type="text/javascript">
 
@@ -27,213 +31,91 @@
     </script>
     <!--e ga -->
   </head>
-  <body class="roomcolors">
-    <div id="header">
-      <div class="wrap">
-        <div id="branding" class="roomcol">
-          <div class="logo">
-            <!-- <a href="/" title="Home">codexBit</a> -->
-            <a href="/"><img src="/images/codexbit_logo.png" style="width:250px; height:55px;" /> </a>
-          </div>
-          <!-- <div class="tagline">software for humans</div> -->
-        </div>
-        <!-- <div class="navbar">
-          <div class="navbar-inner">
-            <ul class="nav">
-              <li class="active">
-                <a href="#">Home</a>
-              </li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-            </ul>
-          </div >
-      </div> -->
-      <!-- <div class="navigation">
-        <div class="container">
-          <div class="btn-group">
-            <a class="btn" href="/">Home</a>
-            <a class="btn active" href="/apps">apps</a>
-            <a class="btn" href="/about">About</a>
-          </div>
-        </div> 
-      </div> --> 
+  <body>
 
-      <div class="navigation">
-        <div class="siteNav">
-          <div style="float:left;"><a href="/"> <img src="/images/nav_home.png" style="width:75px; height:31px;"  border="0" /></a></div>
-          <div style="float:left;"><a href="/apps"><img src="/images/nav_apps.png" style="width:75px; height:31px;" border="0" /></a></div>
-          <div style="float:left;"><a href="/about"><img src="/images/nav_about.png" style="width:75px; height:31px;" /></a></div>
-        </div>
-        <div class="appNav">
-          <div style="float:left;"><a href="/barremote"><img src="/images/nav_barremote.png" style="width:150px; height:38px;" /></a></div>
-          <div style="float:left;"><a href="/roomcolors"><img src="/images/nav_roomcolors_sel.png" style="width:150px; height:38px;" /></a></div>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+
+    <div class="zHeaderOuter">
+      <div class="zHeader">
+        <div class="zHeaderInner">
+          <div class="masthead">
+            <div class="masthead-inner">
+              <div class="masthead-brand"><a class="black" href="/">codexBit</a></div>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="/apps/">My Apps</a></li>
+                <li><a href="/about/">About</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
 
+     </div> <!-- inner cover -->
+        </div>
       </div>
-    </div> <!-- header -->
+    </div> <!-- site-wrapper -->
     
-    <div id="body">
-      <div class="row">
-         <img class="separator-image" src="/images/dark-white-hr.png" />
-      </div>
-      <div class="wrap pad40Top">
-        <div class="row">
-          <div id="showcase" class="w" style="float:left;"></div>
-          <div class="rc-head">
-            <p class="headTitle blackish pad20Top center" style="padding-top:100px;">Your Mac's display</p>
-            <p class="headTitle blackish pad20Top center">as an ambient</p>
-            <p class="headTitle blackish pad20Top center">light source</p>
-            <p>&nbsp;</p>
-            <div class="pad40Top">
-              <a id="iOSAppStore" class="roomcolors" href="https://itunes.apple.com/us/app/roomcolors/id578118411?ls=1&mt=8" target="_blank" title="Available in the App Store"></a>
-              <img src="/apps/roomcolors/images/plus_sign.png" style="width:32px; height:106px; float:left;" />
-              <a id="MacAppStore" class="roomcolors" href="https://itunes.apple.com/us/app/roomcolors/id578135374?ls=1&mt=12" target="_blank" title="Available in the Mac App Store"></a>
+  
+
+    <div class="site-wrapper blueGradient4">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover overflowHidden">
+
+            <div class="about40 pad20Top" style="position:relative;">
+              <img class="timersApp1" src="images/iphone_timers.png" /> <br />
+
             </div>
-            <div>
-              <img src="/apps/roomcolors/images/iPhone_price.png" style="width:208px; height:60px;" />
-              <img src="/apps/roomcolors/images/Mac_price.png" style="margin-left:32px; width:208px; height:60px;" />
+
+            <div class="about60 center pad40Top">
+              <img class="timersIconSmall" src="/apps/timers/images/timers_icon.png" />&nbsp; 
+              <span class="title1">Timers</span>
+
+              <p class="pad20Top">Simple and clean app with support for multiple countdown timers.</p>
+              <p>You receive notifications when the timers run up.</p>
+              <p>The app doesn't need to be running to receive the notifications. You'll get them even if the app is closed, or in the background.  </p>
+              <p>After the timers run down, they start counting up, so you know how much time has elapsed since they went off. </p>
+              <p>That's it. Simple.</p>
+               <a href="https://itunes.apple.com/us/app/timers-multiple-countdown/id626898616?ls=1&mt=8" target="_blank"> <img class="appStoreBadge center" src="/images/AppStore_badge.png" /> </a>
+              <!-- <img class="barremoteiPhoneApp" src="images/barremote_iPhone1.png" /> <br /> -->
+              <!-- <img class="barremoteMacApp" src="images/barremote_mac_app1huh.png" /> <br /> -->
+              
             </div>
-           <!--  <div class="center" style="margin-top:-20px;" >
-              <img src="/images/Available_Soon2.png" style="width:300px;" />
-            </div> -->
-            <!-- <p>&nbsp;</p> -->
-            <p class="center subtitle" style="padding-top:10px;">Simple really.</p> <!-- 140 -->
-            <p class="center subtitle">Your iPhone is the remote control.</p>
-            <p class="center subtitle">Your Macs' display is the light source. </p>
             
-          </div>
-        </div>
+            <div style="clear:both;">&nbsp;</div>
 
-        <div class="row pad40Top">
-          <div class="span6">
-            <p class="center subtitle">Just open the app on your Mac.</p>
-             <p class="center subtitle">The iPhone will instantly recognize it </p>
-             <p class="center subtitle">if they're on the same Wi-Fi network.</p>
-             <p>&nbsp;</p>
-             <p class="center subtitle">No need to mess around with IP addresses or port numbers.</p>
-             <p>&nbsp;</p>
-             <p class="center subtitle">The iPhone and your Macs will recognize themselves and connect automatically.</p>
-             <p>&nbsp;</p>
-             <p class="center subtitle">RoomColors for your Mac lives in the status bar, and doesn't get in your way.</p>
-             <img src="/apps/roomcolors/images/menubarScreen.png" style="padding-left:60px; width:319px; height:32px;" />
-           </div>
-           <div class="span1"> 
-            <!-- <p>here</p> -->
-            <!-- <div id="amacbook-full">
-              <div class="wrap">
-                <div id="amacbook-box">
-                  <img class="amacbook" src="/apps/roomcolors/images/MacBookAir.png" width="1050px" height="690px">
-                </div>
-              </div>
-            </div> -->
-              <!-- <div style="position:relative;">
-                <div id="_macbook-full" style="position:absolute; ">
-                    <div id="macbook-box">
-                      <img class="_macbook" src="/apps/roomcolors/images/MacBookAir.png" width="1050px" height="690px">
-                    </div>
-                </div>
-              </div> -->
-            </div>
-        </div>
-
-      </div>
-
-      <div id="macbook-full">
-        <div class="wrap">
-          <div id="macbook-box">
-            <img class="macbook" src="/apps/roomcolors/images/MacBookAir.png" width="1050px" height="690px">
-          </div>
+          </div> <!-- inner cover -->
         </div>
       </div>
+    </div> <!-- site-wrapper -->
 
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-
-    <div class="wrap">
-      <div class="row">
-        <p class="center headTitle2 pad40Top">This application is a concept</p>
-        <p class="center headTitle2">for a remote controlled</p>
-        <p class="center headTitle2">lighting environment</p>
-        <p>&nbsp;</p>
-        <p class="center subtitle">The application illustrates the practicality of using your iPhone to control the lighting in your home. Ideally you'd have some sort of WI-Fi connected light bulbs. But I'm using the Macs displays as substitutes for light bulbs.</p>
-        <p>&nbsp;</p>
-        <p class="center subtitle">You pick the color to be displayed full screen on your Mac</p>
-        <p class="center subtitle">and adjust the brightness of the display.</p>
-        
-        <p>&nbsp;</p>
-        
-      </div>
-    </div>
-
-    <div class="wrap">
-        <div class="row">
-          <div class="span6">
-            <img src="/apps/roomcolors/images/iPhone_white2.png" />
-          </div style="float:left;">
-          <div class="pad40Top">
-            <p class="center headTitle" style="padding-top:120px;">What to use it for?</p>
-            <p class="center bold subtitle pad40Top">You can use it as a mood light.</p>
-            <p class="center subtitle">Create the mood you want in your room by lighting it with a certain color.</p>
-            <p>&nbsp;</p>
-            <p class="center bold subtitle pad40Top">You can use it as a soft box for photography</p>
-            <p class="center subtitle">Shoot your subject under colored light. </p>
-            <p class="center subtitle">With a long exposure, mix colors. </p>
-            
-          </div>
-        </div>
-    </div>
-
-
-
-
-
-
-
-<!--       <div id="heroBR-full">
-        <div class="wrap">
-          <div id="heroBR-box">
-            <span class="title center">BarRemote for Spotify</span>
-            <img id="iMac" src="/images/iMac_27inch-full.png" />
-            <a href="https://itunes.apple.com/us/app/barremote-for-spotify/id563191598?ls=1&mt=12" target="_blank"><img id="macStore" src="/images/Mac_App_Store_Badge.png" /></a>
-            <a href="https://itunes.apple.com/us/app/barremote/id570584129?ls=1&mt=8" target="_blank"><img id="appStore" src="/images/App_Store_Badge.png" /></a>
-            <img id="iPhone" src="/images/iPhone_4S-home.png" />
-          </div>
-        </div>
-      </div>
-
- -->
 
 
       
 
 
-
-    </div> <!-- id body -->
     
-    <div class="row">
-      <div id="footer" class="default pad20Bottom">
-        <div class="wrap pad15Top">
-          <div class="sharer">
-            <!-- <p class="floatLeft cb-lightBlue" style="opacity:.7;">Get in touch:</p> -->
-            
-            <div class="span10 offset1">
-              <div class="floatLeft">
-                <a id="twitter" class="roomcolors floatLeft" href="http://twitter.com/codexbit/" target=_blank>Follow CodexBit on Twitter</a>
-              </div>
-              <div class="floatRight">
-                <a id="email" class="roomcolors" href="mailto:contact@codexbit.com" target=_blank>Get in touch by email</a>
-              </div>
-            </div>
-            
-            <!-- <img id="twitter" src="/images/twitter.png" /> -->
-          </div>
+
+
+    <div class="site-wrapper blueBackground">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+            <div style="height:2px;"></div>
+
+          </div> <!-- inner cover -->
         </div>
       </div>
-    </div>
+    </div> <!-- site-wrapper -->
+
     <div class="row center">
-      <p id="copyright" class="pad20Top pad20Bottom">&copy; 2012 CodexBit Software Srl-D</p>
+      <p id="copyright" class="pad20Top pad20Bottom">CodexBit Software Srl-D</p>
     </div>
+
     
   </body>
 </html>

@@ -1,0 +1,831 @@
+html,
+body {
+	/*font-family: verdana, sans-serif;*/
+	/*font-family: Helvetica, Georgia;*/
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 18px;
+	line-height: normal;
+	background-color: #ffffff;
+	color: #000000;
+	height: 100%;
+	min-width: 968px;
+	/*text-shadow: 0 1px 1px rgba(0,0,0,.5);*/
+	/*text-align: center;*/
+}
+
+.zHeaderOuter
+{
+	text-align: center;
+}
+
+.zHeader{
+	clear: both;
+	display: inline;
+}
+
+.zHeaderInner{
+	text-align: center;
+}
+
+.zHeader-brand
+{
+	/*clear: both;*/
+	/*display: inline;*/
+	font-size: 44px;
+}
+
+#nav-apps-container {
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+	color: #000000;
+}
+
+#nav-apps {
+	/*display: none;*/
+	position: absolute;
+	margin: 0 auto;
+	max-width: 400px;
+	width: 100%;
+	z-index: 2;
+	/*background: rgba(244,244,244,0.95);*/
+	background: rgba(255,255,255,0.95);
+	padding: 0 0 10px 0;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+}
+
+.followDetail {
+	text-decoration: none;
+	color: #697480;
+	background-image: url('/images/ourapps/Chevron.png');
+	background-position: 100% 75%;
+	background-size: 11px 17px;
+	background-repeat: no-repeat;
+	padding-right: 15px;
+}
+
+.whiteText
+{
+	color: white;
+}
+
+.blueBackground
+{
+	background-color: #31ABED;
+}
+
+.blueBackground2
+{
+	background-color: #00C5FF;
+}
+
+.orangeBackground
+{
+	background-color: #F89328;
+}
+
+.greenGradient
+{
+	background-color: rgb(109, 240, 132);
+	background-image: linear-gradient(rgb(109, 240, 132) 0%, rgb(4, 149, 130) 100%);
+}
+
+.greenBlueGradient
+{
+	background-color: #01D9F0;
+	background-image: linear-gradient(rgb(1, 255, 212) 0%, rgb(0, 197, 255) 100%);
+	border-top: 1px #01D9F0 solid;
+}
+
+.blueGradient
+{
+	background-color: #31ABED;
+	background-image: linear-gradient(rgb(106, 223, 251) 0%, rgb(78, 148, 232) 100%);
+	border-top: 1px #31ABED solid;
+}
+
+.blueGradient2
+{
+	background-color: #31ABED;
+	background-image: linear-gradient(rgb(106, 223, 251) 0%, rgb(84, 163, 236) 100%);
+	border-top: 1px #31ABED solid;
+}
+
+.blueGradient3
+{
+	background-color: #31ABED;
+	background-image: linear-gradient(rgb(0, 222, 255) 0%, rgb(0, 177, 255) 100%);
+	border-top: 1px #31ABED solid;
+}
+
+.blueGradient4
+{
+	background-color: #00C2FF;
+	background-image: linear-gradient(rgb(0, 220, 255) 0%, rgb(0, 177, 255) 100%);
+	border-top: 1px #00C2FF solid;
+}
+
+.orangeGradient
+{
+	background-color: #F89328;
+	background-image: linear-gradient(rgb(252, 182, 45) 0%, rgb(240, 111, 34) 100%);
+	border-top: 1px #F89328 solid;
+}
+
+.title1
+{
+	/*font-size: 46px;*/
+	font-size: 32px;
+	/*font-weight: bold;*/
+	font-weight: normal;
+
+}
+
+.title2
+{
+	font-size: 26px;
+	font-weight: normal;
+}
+
+.homeMeImg
+{
+
+}
+
+/* BARREMOTE */
+
+
+.barremoteMacApp
+{
+	width: 400px;
+	max-width: 400px;
+	height: auto;
+}
+
+.barremoteIcon
+{
+	width: 136px;
+	height: auto;
+}
+.barremoteIconSmall
+{
+	width: 68px;
+	height: auto;
+}
+
+.roomcolorsIconSmall
+{
+	width: 69px;
+	height: auto;
+}
+
+.timersIconSmall
+{
+	width: 69px;
+	height: auto;
+}
+
+.barremoteiPhoneApp
+{
+	width: 220px;
+	max-width: 220px;
+	height: auto;
+}
+
+.apps_br_pers1
+{
+	position: absolute;
+	top: -38px;
+	min-width: 673px;
+	width: 673px;
+	height: auto;
+}
+
+.apps_br_pers2
+{
+	position: absolute;
+	top: 5px;
+	left: -30px;
+	min-width: 400px;
+	width: 400px;
+	height: auto;
+}
+
+.apps_br_pers3
+{
+	/*position: absolute;*/
+	left: 100px;
+	top: -38px;
+	min-width: 430px;
+	width: 430px;
+	height: auto;
+}
+
+.apps_rc_pers2
+{
+	position: absolute;
+	top: -225px;
+	width: 329px;
+	min-width: 329px;
+	height: auto;
+}
+
+.apps_t_pers1
+{
+	position: absolute;
+	top: 38px;
+	min-width: 329px;
+	width: 329px;
+	height: auto;
+}
+
+.barremoteMacStore
+{
+	width:165px; 
+	height:auto;
+	padding-top: 5px;
+}
+
+.appStoreBadge
+{
+	width:135px; 
+	height:auto;
+	padding-top: 5px;
+}
+
+/* BARREMOTE-END */
+
+
+/* ROOM COLORS */
+
+#roomcolors-showcase {
+	width: 400px;
+	height: 750px;
+	background-image: url('/apps/roomcolors/images/iPhone_white.png');
+}
+
+.rc-head
+{
+	/*background-color: red;*/
+	width:500px; 
+	float:left; 
+	margin-left:040px;
+}
+
+#iOSAppStore.roomcolors{
+	display: block;
+	background: url('/apps/roomcolors/images/iPhone_link_.png');
+	background-size: 208px 106px;
+	background-repeat:no-repeat;
+	width:208px; 
+	height:106px;
+	float: left;
+	margin-left: 25px;
+}
+
+#iOSAppStore.roomcolors:hover{
+	/*background: url('/apps/roomcolors/images/iPhone_link_hover.png');
+	background-size: 208px 106px;
+	background-repeat:no-repeat;*/
+	/*background-position: 0 -106px;*/
+}
+
+#MacAppStore.roomcolors
+{
+	display: block;
+	background: url('/apps/roomcolors/images/Mac_link_.png');
+	background-size: 208px 106px;
+	background-repeat:no-repeat;
+	width:208px; 
+	height:106px;
+	float: left;
+}
+
+#MacAppStore.roomcolors:hover{
+	/*background: url('/apps/roomcolors/images/Mac_link_hover.png');
+	background-size: 208px 106px;
+	background-repeat:no-repeat;*/
+	/*background-position: 0 -106px;*/
+}
+
+#macbook-full
+{
+	position: absolute; /*ff*/
+
+	overflow: hidden;
+	width:100%;
+	height: 690px;
+	margin-top: -580px;
+}
+
+#macbook-box
+{
+	width: 940px;
+	height: 690px;
+	margin-bottom: 20px;
+	/*position: relative;*/
+
+}
+
+.macbook
+{
+	
+	/*position: absolute; ff*/
+	/*background-color: yellow;*/
+	margin-left: 450px;
+	/*margin-top: -400px;*/
+	min-width: 1050px;
+	min-height: 690px;
+	max-width: 1050px;
+	max-height: 690px;
+}
+
+
+/* TIMERS */
+
+.timersApp1{
+	position: absolute;
+	width: 329px;
+	max-width: 329px;
+	height: auto;
+}
+
+
+
+
+
+
+
+.subtitle
+{
+	font-size: 26px;
+	line-height: 30px;
+}
+
+.headTitle
+{
+	/*font-size: 46px;*/
+	font-size: 46px;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+.headTitle2
+{
+	font-size: 46px;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.overflowHidden
+{
+	overflow: hidden;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float:right;
+}
+
+.center{
+	text-align: center;
+}
+
+.justify{
+	text-align: justify;
+}
+
+h3.subtitle{
+	margin-bottom: 0px;
+}
+
+.white{
+	color: white;
+}
+
+.blackish{
+	color: #454545;
+}
+
+.shadow{
+	text-shadow: 2px 2px 10px black;
+}
+
+.wshadow{
+	text-shadow: 2px 2px 10px white;
+}
+
+.light-shadow{
+	text-shadow: 1px 1px 3px black;
+}
+
+
+.pad10Top{
+	padding-top: 10px;
+}
+
+.pad10Bottom{
+	padding-bottom: 10px;
+}
+
+.pad15Top{
+	padding-top: 15px;
+}
+
+.pad20Top{
+	padding-top: 15px;
+}
+.pad40Top{
+	padding-top: 40px;
+}
+
+.pad80Top{
+	padding-top: 80px;
+}
+
+.pad20Top{
+	padding-top: 20px;
+}
+
+.pad20Bottom{
+	padding-bottom: 20px;
+}
+.pad40Bottom{
+	padding-bottom: 40px;
+}
+
+.margin0Bottom{
+	margin-bottom: 0px;
+}
+
+.pad80Left{
+	padding-left: 80px;
+}
+
+
+
+/* codexbit end */
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+.black a,
+.black a:focus,
+.black a:hover {
+  color: #000;
+}
+
+.blue a,
+.blue a:focus,
+.blue a:hover {
+  color: #31ABED;
+}
+
+a.blackFollow{
+	padding-right: 20px;
+	color: #000000;
+
+	background-image: url('/images/chevron.png');
+	background-position: 100% 50%;
+	background-size: 11px 20px;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+}
+a.blackFollow:focus,
+a.blackFollow:hover{
+	background-image: url('/images/chevron.png');
+	background-position: 100% 50%;
+	background-size: 11px 20px;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+}
+
+a.appLinkTitle{
+	font-size: 26px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #000000;
+	/*padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+	padding-top: 20px;*/
+}
+a.appLinkTitle:focus,
+a.appLinkTitle:hover {
+  /*text-decoration: none;
+  background-image: url('/images/chevron.png');
+  background-position: 100% 50%;
+  background-size: 11px 20px;
+  background-repeat: no-repeat;
+  padding-right: 20px;*/
+}
+a.appLinkTitle:focus > span,
+a.appLinkTitle:hover > span{
+	/*text-decoration: underline;*/
+	border-bottom: 2px solid black;
+}
+
+
+a.appLinkDesc{
+	font-size: 26px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #000000;
+}
+a.appLinkDesc:focus,
+a.appLinkDesc:hover {
+  border-bottom: 2px solid black;
+}
+
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  /*display: table; zaps*/
+  width: 100%;
+  /*height: 400px;  For at least Firefox 
+  min-height: 400px;*/
+  /*-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
+
+}
+.site-wrapper-inner {
+  /*display: table-cell;zaps */
+  /*vertical-align: top;*/
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+  /*background-color: #efefef;*/
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+.masthead-brand > a{
+	color: #000000;
+}
+.masthead-brand > a.white{
+	color: #ffffff;
+}
+.masthead-brand > a:hover,
+.masthead-brand > a:focus{
+	text-decoration: none;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 6px;
+  padding-top: 10px;
+  font-size: 20px;
+  /*font-weight: bold;*/
+  color: #000; /* IE8 proofing */
+  color: rgba(0,0,0,1);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  /*border-bottom-color: #a9a9a9;*/
+  border-bottom-color: rgba(0,0,0,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #000;
+  border-bottom-color: #000;
+}
+
+
+/*masthead nav WHITE*/
+
+.masthead-nav-white > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 6px;
+  padding-top: 10px;
+  font-size: 20px;
+  /*font-weight: bold;*/
+  color: #ffffff; /* IE8 proofing */
+  color: rgba(255,255,255,1);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav-white > li > a:hover,
+.masthead-nav-white > li > a:focus {
+  background-color: transparent;
+  /*border-bottom-color: #a9a9a9;*/
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav-white > .active > a,
+.masthead-nav-white > .active > a:hover,
+.masthead-nav-white > .active > a:focus {
+  color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+/* END masthead nav white */
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+    margin-left: 40px;
+  }
+  .masthead-nav {
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+  }
+  .masthead-inner{
+  	clear: both;
+	display: inline-block;
+	width: 100%;
+  }
+
+}
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+  /*background-image: linear-gradient(rgb(109, 240, 132) 0%, rgb(4, 149, 130) 100%);*/
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+	.cover-container {
+    width: 768px;
+  }
+}
+ 
+
+			 @media (max-width: 768px){
+			 .aboutMeImg{
+			 	text-align: center;
+			 }
+			 .bremoteapp{
+			 	text-align: center;
+			 }
+			 }
+
+			@media (min-width: 768px) {
+			  /* Pull out the header and footer */
+			  .masthead {
+			    /*position: fixed; zaps*/
+			    /*top: 0;*/
+			  }
+			  .mastfoot {
+			    position: fixed;
+			    bottom: 0;
+			  }
+			  /* Start the vertical centering */
+			  .site-wrapper-inner {
+			    vertical-align: middle;
+			  }
+			  /* Handle the widths */
+			  .masthead,
+			  .mastfoot,
+			  .cover-container {
+			    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+			  }
+
+			  .about50
+			{
+				width: 50%;
+				float: left;
+			}
+			.about33
+			{
+				width: 33%;
+				float: left;
+			}
+
+			  .about40
+			{
+				width: 40%;
+				float: left;
+			}
+			  .about60
+			{
+				width: 60%;
+				float: left;
+			}
+			.aboutMeText{
+				width: 400px;
+			}
+			.clientAppName{
+				width: 230px;
+				text-align: center;
+			}
+			}
+
+
+@media (min-width: 992px) {
+  .masthead,
+  .zHeaderInner,
+  .mastfoot,
+  .cover-container {
+    width: 968px;
+  }
+
+  .zHeader{
+  	display: inline-block;
+  }
+
+  .about50
+{
+	width: 50%;
+	float: left;
+}
+  .about33
+{
+	width: 33%;
+	float: left;
+}
+  .about40
+{
+	width: 40%;
+	float: left;
+}
+  .about60
+{
+	width: 60%;
+	float: left;
+}
+.aboutMeText{
+	width: 420px;
+}
+.clientAppName{
+	width: 230px;
+	text-align: center;
+}
+}
