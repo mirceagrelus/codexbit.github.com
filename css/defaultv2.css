@@ -162,6 +162,13 @@ body {
 	height: auto;
 }
 
+.barremoteMacAppDark
+{
+	width: 490px;
+	max-width: 490px;
+	height: auto;
+}
+
 .barremoteIcon
 {
 	width: 136px;
@@ -399,6 +406,11 @@ body {
 	text-align: center;
 }
 
+.textLeft
+{
+	text-align: left;
+}
+
 .justify{
 	text-align: justify;
 }
@@ -470,7 +482,9 @@ h3.subtitle{
 	padding-left: 80px;
 }
 
-
+.inline-block{
+	display: inline-block;
+}
 
 /* codexbit end */
 /*
