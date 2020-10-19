@@ -1,0 +1,177 @@
+[
+    {
+        "questionnaireId" : "e7c113b4",
+        "id" : "Q001",
+        "number" : "1",
+        "question" : "Wat is je voornaamste bron van inkomsten?",
+        "answer" : {
+            "type" : "select",
+            "validation" : {
+                "minSelect" : 1,
+                "maxSelect" : 1
+            },
+            "options" : [
+                "Loon uit dienstverband",
+                "Loon uit eigen onderneming/als zzp'er",
+                "Pensioen (AOW + eventueel aanvullend pensioen)",
+                "Uitkering van een (sociale) verzekering (WIA, werkeloosheidsuitkering)",
+                "Bijstandsuitkering",
+                "Dividend uit een aanmerkelijk belang in een vennootschap",
+                "Inkomsten uit vermogen"
+            ]
+        },
+        "progress" : 0.14,
+        "finalStep" : false
+    },
+    {
+        "questionnaireId" : "e7c113b4",
+        "id" : "Q002",
+        "number" : "2",
+        "question" : "Wat is de huidige waarde van je direct opneembare spaar- en beleggingstegoeden, wanneer je je consumptieve kredieten, roodstanden en studieleningen (oftewel alle schulden die niet zijn aangegaan voor de aankoop van een groot bezit) hiervan aftrekt?",
+        "answer" : {
+            "type" : "select",
+            "validation" : {
+                "minSelect" : 1,
+                "maxSelect" : 1
+            },
+            "options" : [
+                "Minder dan 0 euro",
+                "Tussen 0 en 5.000 euro",
+                "Tussen 5.000 en 25.000 euro",
+                "Tussen 25.000 en 100.000 euro",
+                "Meer dan 100.000 euro"
+            ]
+        },
+        "progress" : 0.29,
+        "finalStep" : false
+    },
+    {
+        "questionnaireId" : "e7c113b4",
+        "id" : "Q003",
+        "number" : "3",
+        "question" : "Hoe reageer je als de waarde van je beleggingen daalt?",
+        "answer" : {
+            "type" : "select",
+            "validation" : {
+                "minSelect" : 1,
+                "maxSelect" : 1
+            },
+            "options" : [
+                "Ik wil niet dat dit gebeurt",
+                "Ik vind dit niet heel prettig, maar wel acceptabel",
+                "Ik heb hier geen enkel probleem mee"
+            ]
+        },
+        "progress" : 0.43,
+        "finalStep" : false
+    },
+    {
+        "questionnaireId" : "e7c113b4",
+        "id" : "Q005",
+        "number" : "5",
+        "question" : "Wat is je beroep of vorige beroep?",
+        "answer" : {
+            "type" : "text",
+            "validation" : {
+                "maxLength" : 50,
+                "multiLine" : false
+            },
+            "options" : null
+        },
+        "progress" : 0.57,
+        "finalStep" : false
+    },
+    {
+        "questionnaireId" : "e7c113b4",
+        "id" : "Q006a",
+        "number" : "6a",
+        "question" : "Vanaf wanneer wil je starten met beleggen?",
+        "answer" : {
+            "type" : "date",
+            "validation" : {
+                "minDate" : 1600865680,
+                "maxDate" : null,
+                "pickDateRange" : false
+            },
+            "options" : null
+        },
+        "progress" : 0.71,
+        "finalStep" : false
+    },
+    {
+        "questionnaireId" : "e7c113b4",
+        "id" : "Q006b",
+        "number" : "6b",
+        "question" : "Voor hoe lang (in jaren) ben je van plan te blijven beleggen?",
+        "answer" : {
+            "type" : "number",
+            "validation" : {
+                "minNumber" : 0,
+                "maxNumber" : 100,
+                "currency" : null,
+                "decimals" : 0
+            },
+            "options" : null
+        },
+        "progress" : 0.71,
+        "finalStep" : false
+    },
+    {
+        "questionnaireId" : "e7c113b4",
+        "id" : "Q007",
+        "number" : "7",
+        "question" : "Wat is je maandelijks netto (gezins)inkomen (loon, uitkeringen, subsidies, inkomsten uit vermogen, etc.)?",
+        "answer" : {
+            "type" : "number",
+            "validation" : {
+                "minNumber" : 0,
+                "maxNumber" : null,
+                "currency" : "EUR",
+                "decimals" : 2
+            },
+            "options" : null
+        },
+        "progress" : 0.86,
+        "finalStep" : false
+    },
+    {
+        "questionnaireId" : "e7c113b4",
+        "id" : "Q007b",
+        "number" : "7b",
+        "question" : "Uit welke bronnen komen deze inkomsten?",
+        "answer" : {
+            "type" : "select",
+            "validation" : {
+                "minSelect" : 1,
+                "maxSelect" : 6
+            },
+            "options" : [
+                "Loon",
+                "Uitkeringen",
+                "Subsidies",
+                "Inkomsten uit bezit (huur/pacht/rente)",
+                "Winst uit bedrijf",
+                "Anders"
+            ]
+        },
+        "progress" : 0.86,
+        "finalStep" : false
+    },
+    {
+        "questionnaireId" : "e7c113b4",
+        "id" : "Q008",
+        "number" : "8",
+        "question" : "Heeft u nog andere vragen of opmerkingen? Vul ze hieronder in.",
+        "answer" : {
+            "type" : "text",
+            "validation" : {
+                "maxLength" : 2000,
+                "multiLine" : true
+            },
+            "options" : null
+        },
+        "progress" : 1,
+        "finalStep" : true,
+        "buttonText" : "Verzenden"
+    }
+]
