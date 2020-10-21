@@ -73,6 +73,7 @@
         "answer" : {
             "type" : "text",
             "validation" : {
+                "required": true,
                 "maxLength" : 50,
                 "multiLine" : false
             },
