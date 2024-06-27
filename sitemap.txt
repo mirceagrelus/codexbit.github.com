@@ -1,6 +1,7 @@
 http://codexbit.com/index.html
 http://codexbit.com/about/index.html
 http://codexbit.com/apps/index.html
-http://codexbit.com/apps/BarRemote/index.html
-http://codexbit.com/apps/RoomColors/index.html
+http://codexbit.com/apps/barremote/index.html
+http://codexbit.com/apps/roomcolors/index.html
+http://codexbit.com/apps/timers/index.html
 http://codexbit.com/sitemap.txt
